@@ -1,0 +1,66 @@
+{
+  "dataset": "make_moons (1.200 mẫu, noise=0.25)",
+  "split_seed": 42,
+  "split_sizes": {
+    "train": 720,
+    "val": 240,
+    "test": 240
+  },
+  "split_policy": "stratified 60/20/20; scaler fit on train only",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 200,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "blas_threads": 1,
+  "solver": "adam",
+  "checkpoint_selection": "minimum validation cross-entropy",
+  "configs": [
+    {
+      "name": "width_8",
+      "hidden": [
+        8,
+        8
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "width_32",
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "width_64",
+      "hidden": [
+        64,
+        64
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "width_128",
+      "hidden": [
+        128,
+        128
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    }
+  ],
+  "versions": {
+    "python": "3.13.3",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.2",
+    "pandas": "2.3.2",
+    "matplotlib": "3.10.5"
+  }
+}

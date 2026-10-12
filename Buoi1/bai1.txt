@@ -1,0 +1,5 @@
+Mục tiêu chung: Hiểu cách MLP hoạt động và ảnh hưởng của kiến trúc, siêu tham số đến kết quả học sâu.
+Bài 1 – Xây dựng MLP : Sử dụng dữ liệu `make_moons` để phân loại 2 nhóm điểm. Huấn luyện MLP với số neuron 8, 32, 64, 128; so sánh loss, accuracy, Macro-F1, số tham số và thời gian chạy. Nhận xét ảnh hưởng của số neuron đến chất lượng mô hình. 
+bài 2 – Khảo sát MLP: Huấn luyện MLP trên dữ liệu có sẵn; thay đổi số tầng, số neuron, hàm kích hoạt (ReLU, tanh, sigmoid). Mức nâng cao: thử Dropout hoặc Weight Decay. So sánh kết quả, vẽ learning curve và nhận xét underfitting/overfitting.  
+
+Sản phẩm cần nộp: Source code chạy được, bảng so sánh kết quả, biểu đồ và nhận xét ngắn gọn.

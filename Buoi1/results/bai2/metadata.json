@@ -1,0 +1,120 @@
+{
+  "dataset": "digits (1.797 mẫu, 64 đặc trưng, 10 lớp)",
+  "split_seed": 42,
+  "split_sizes": {
+    "train": 1078,
+    "val": 359,
+    "test": 360
+  },
+  "split_policy": "stratified 60/20/20; scaler fit on train only",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 200,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "blas_threads": 1,
+  "solver": "adam",
+  "checkpoint_selection": "minimum validation cross-entropy",
+  "configs": [
+    {
+      "name": "baseline",
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "depth_1",
+      "hidden": [
+        32
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "depth_3",
+      "hidden": [
+        32,
+        32,
+        32
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "width_8",
+      "hidden": [
+        8,
+        8
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "width_64",
+      "hidden": [
+        64,
+        64
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "width_128",
+      "hidden": [
+        128,
+        128
+      ],
+      "activation": "relu",
+      "alpha": 0.0
+    },
+    {
+      "name": "tanh",
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "tanh",
+      "alpha": 0.0
+    },
+    {
+      "name": "sigmoid",
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "logistic",
+      "alpha": 0.0
+    },
+    {
+      "name": "l2_0.01",
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "relu",
+      "alpha": 0.01
+    },
+    {
+      "name": "l2_0.1",
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "relu",
+      "alpha": 0.1
+    }
+  ],
+  "versions": {
+    "python": "3.13.3",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.2",
+    "pandas": "2.3.2",
+    "matplotlib": "3.10.5"
+  }
+}
