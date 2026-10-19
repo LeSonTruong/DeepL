@@ -1,0 +1,9 @@
+{
+  "section": "3.2",
+  "tables": [],
+  "figures": [],
+  "notes": [
+    "Without assigning/saving hyperparameters: hasattr(a)=False; hasattr(b)=False",
+    "Full reference classes: https://d2l.ai/_modules/d2l/torch.html#HyperParameters; Module; DataModule; Trainer. See downloaded source_reference/d2l_torch.py."
+  ]
+}

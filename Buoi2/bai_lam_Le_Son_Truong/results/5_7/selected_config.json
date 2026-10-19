@@ -1,0 +1,11 @@
+{
+  "name": "mlp64_dropout",
+  "hidden": [
+    64
+  ],
+  "lr": 0.003,
+  "epochs": 100,
+  "optimizer": "adam",
+  "decay": 0.0001,
+  "dropout": 0.1
+}

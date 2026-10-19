@@ -1,0 +1,225 @@
+[
+  {
+    "path": [
+      "Introduction"
+    ],
+    "pdf_page": 69,
+    "text": "Exercises\n1. Which parts of code that you are currently writing could be “learned”, i.e., improved\nby learning and automatically determining design choices that are made in your code?\nDoes your code include heuristic design choices? What data might you need to learn\nthe desired behavior?\n2. Which problems that you encounter have many examples for their solution, yet no spe-\ncific way for automating them? These may be prime candidates for using deep learning.\n3. Describe the relationships between algorithms, data, and computation. How do char-\nacteristics of the data and the current available computational resources influence the\nappropriateness of various algorithms?\n4. Name some settings where end-to-end training is not currently the default approach but\nwhere it might be useful.\n"
+  },
+  {
+    "path": [
+      "Preliminaries",
+      "Data Manipulation"
+    ],
+    "pdf_page": 77,
+    "text": "Exercises\n1. Run the code in this section. Change the conditional statementX == Y to X < Y or X >\nY, and then see what kind of tensor you can get.\n2. Replace the two tensors that operate by element in the broadcasting mechanism with\nother shapes, e.g., 3-dimensional tensors. Is the result the same as expected?\n"
+  },
+  {
+    "path": [
+      "Preliminaries",
+      "Data Preprocessing"
+    ],
+    "pdf_page": 80,
+    "text": "Exercises\n1. Try loading datasets, e.g., Abalone from theUCI Machine Learning Repository50 and\ninspect their properties. What fraction of them has missing values? What fraction of\nthe variables is numerical, categorical, or text?\n2. Try indexing and selecting data columns by name rather than by column number. The\npandas documentation onindexing51 has further details on how to do this.\n41 Linear Algebra\n52\n53\n54\n3. How large a dataset do you think you could load this way? What might be the limita-\ntions? Hint: consider the time to read the data, representation, processing, and memory\nfootprint. Try this out on your laptop. What happens if you try it out on a server?\n4. How would you deal with data that has a very large number of categories? What if the\ncategory labels are all unique? Should you include the latter?\n5. What alternatives to pandas can you think of? How aboutloading NumPy tensors from\na file52? Check outPillow53, the Python Imaging Library.\n"
+  },
+  {
+    "path": [
+      "Preliminaries",
+      "Linear Algebra"
+    ],
+    "pdf_page": 93,
+    "text": "Exercises\n1. Prove that the transpose of the transpose of a matrix is the matrix itself:(A⊤)⊤ = A.\n2. Given two matricesA and B, show that sum and transposition commute:A⊤+ B⊤ =\n(A+ B)⊤.\n3. Given any square matrixA, isA+ A⊤ always symmetric? Can you prove the result by\nusing only the results of the previous two exercises?\n4. We defined the tensorX of shape (2, 3, 4) in this section. What is the output oflen(X)?\nWrite your answer without implementing any code, then check your answer using code.\n5. For a tensor X of arbitrary shape, does len(X) always correspond to the length of a\ncertain axis ofX? What is that axis?\n6. Run A / A.sum(axis=1) and see what happens. Can you analyze the results?\n7. When traveling between two points in downtown Manhattan, what is the distance that\nyou need to cover in terms of the coordinates, i.e., in terms of avenues and streets? Can\nyou travel diagonally?\n8. Consider a tensor of shape (2, 3, 4). What are the shapes of the summation outputs\nalong axes 0, 1, and 2?\n9. Feed a tensor with three or more axes to thelinalg.norm function and observe its\noutput. What does this function compute for tensors of arbitrary shape?\n10. Consider three large matrices, sayA∈ R210×216, B∈ R216×25 and C∈ R25×214, ini-\ntialized with Gaussian random variables. You want to compute the productABC. Is\nthereanydifferenceinmemoryfootprintandspeed,dependingonwhetheryoucompute\n(AB)C or A(BC). Why?\n11. Consider three large matrices, sayA∈ R210×216, B∈ R216×25 and C∈ R25×216. Is there\nany difference in speed depending on whether you computeAB or AC⊤? Why? What\nchanges if you initializeC = B⊤ without cloning memory? Why?\n12. Consider three matrices, sayA, B, C∈ R100×200. Construct a tensor with three axes by\n54 Preliminaries\n55\nstacking[A, B, C]. What is the dimensionality? Slice out the second coordinate of the\nthird axis to recoverB. Check that your answer is correct.\n"
+  },
+  {
+    "path": [
+      "Preliminaries",
+      "Calculus"
+    ],
+    "pdf_page": 99,
+    "text": "Exercises\n1. Sofarwetooktherulesforderivativesforgranted. Usingthedefinitionandlimitsprove\nthe properties for (i)𝑓(𝑥) =𝑐, (ii)𝑓(𝑥) =𝑥𝑛, (iii)𝑓(𝑥) =𝑒𝑥 and (iv)𝑓(𝑥) = log𝑥.\n2. In the same vein, prove the product, sum, and quotient rule from first principles.\n3. Prove that the constant multiple rule follows as a special case of the product rule.\n4. Calculate the derivative of𝑓(𝑥) =𝑥𝑥.\n5. What does it mean that𝑓′(𝑥) = 0 for some𝑥? Give an example of a function𝑓 and a\nlocation𝑥 for which this might hold.\n6. Plot the function𝑦 = 𝑓(𝑥) =𝑥3− 1𝑥 and plot its tangent line at𝑥 = 1.\n7. Find the gradient of the function𝑓(x) = 3𝑥21+ 5𝑒𝑥2.\n8. What is the gradient of the function𝑓(x) =‖x‖2? What happens forx = 0?\n9. Can you write out the chain rule for the case where𝑢 = 𝑓(𝑥,𝑦,𝑧 ) and 𝑥 = 𝑥(𝑎,𝑏),\n𝑦 =𝑦(𝑎,𝑏), and𝑧 =𝑧(𝑎,𝑏)?\n10. Given a function𝑓(𝑥) that is invertible, compute the derivative of its inverse𝑓−1(𝑥).\nHere we have that𝑓−1(𝑓(𝑥)) = 𝑥 and conversely 𝑓(𝑓−1(𝑦)) = 𝑦. Hint: use these\nproperties in your derivation.\n"
+  },
+  {
+    "path": [
+      "Preliminaries",
+      "Automatic Differentiation"
+    ],
+    "pdf_page": 104,
+    "text": "Exercises\n1. Why is the second derivative much more expensive to compute than the first derivative?\n2. After running the function for backpropagation, immediately run it again and see what\nhappens. Investigate.\n3. In the control flow example where we calculate the derivative ofd with respect toa,\nwhat would happen if we changed the variablea to a random vector or a matrix? At\nthis point, the result of the calculationf(a) is no longer a scalar. What happens to the\nresult? How do we analyze this?\n4. Let 𝑓(𝑥) = sin(𝑥). Plot the graph of𝑓 and of its derivative𝑓′. Do not exploit the fact\nthat 𝑓′(𝑥) = cos(𝑥) but rather use automatic differentiation to get the result.\n5. Let 𝑓(𝑥) =(( log𝑥2)· sin𝑥)+ 𝑥−1. Write out a dependency graph tracing results from\n𝑥 to 𝑓(𝑥).\n6. Usethechainruletocomputethederivative 𝑑𝑓𝑑𝑥 oftheaforementionedfunction, placing\neach term on the dependency graph that you constructed previously.\n65 Probability and Statistics\n58\n7. Given the graph and the intermediate derivative results, you have a number of options\nwhen computing the gradient. Evaluate the result once starting from𝑥 to 𝑓 and once\nfrom 𝑓 tracing back to𝑥. The path from𝑥 to 𝑓 is commonly known asforward differ-\nentiation, whereas the path from𝑓 to𝑥 is known as backward differentiation.\n8. When might you want to use forward, and when backward, differentiation? Hint: con-\nsider the amount of intermediate data needed, the ability to parallelize steps, and the\nsize of matrices and vectors involved.\n"
+  },
+  {
+    "path": [
+      "Preliminaries",
+      "Probability and Statistics"
+    ],
+    "pdf_page": 117,
+    "text": "Exercises\n1. Giveanexamplewhereobservingmoredatacanreducetheamountofuncertaintyabout\nthe outcome to an arbitrarily low level.\n2. Give an examplewhere observing more data will onlyreduce the amount of uncertainty\nup to a point and then no further. Explain why this is the case and where you expect this\npoint to occur.\n3. We empirically demonstrated convergence to the mean for the toss of a coin. Calculate\nthevarianceoftheestimateoftheprobabilitythatweseeaheadafterdrawing 𝑛samples.\n1. How does the variance scale with the number of observations?\n2. Use Chebyshev’s inequality to bound the deviation from the expectation.\n3. How does it relate to the central limit theorem?\n4. Assume that we draw𝑚 samples𝑥𝑖 from a probability distribution with zero mean and\nunit variance. Compute the averages𝑧𝑚\ndef\n= 𝑚−1 ˝𝑚𝑖=1𝑥𝑖. Can we apply Chebyshev’s\ninequality for every𝑧𝑚 independently? Why not?\n5. Given two events with probability𝑃(A) and𝑃(B), compute upper and lower bounds\non𝑃(A∪B) and𝑃(A∩B) . Hint: graph the situation using aVenn diagram61.\n6. Assumethatwehaveasequenceofrandomvariables,say 𝐴,𝐵,and 𝐶,where 𝐵onlyde-\npendson 𝐴,and 𝐶 onlydependson 𝐵,canyousimplifythejointprobability 𝑃(𝐴,𝐵,𝐶)?\nHint: this is aMarkov chain62.\n7. In Section 2.6.5, assume that the outcomes of the two tests are not independent. In\nparticular assume that either test on its own has a false positive rate of 10% and a false\nnegative rate of 1%. That is, assume that𝑃(𝐷 = 1| 𝐻 = 0) = 0.1 and that𝑃(𝐷 =\n0| 𝐻 = 1) = 0.01. Moreover, assume that for𝐻 = 1 (infected) the test outcomes are\n78 Preliminaries\n63\n64\n65\n66\nconditionally independent, i.e., that𝑃(𝐷1,𝐷 2| 𝐻 = 1) = 𝑃(𝐷1| 𝐻 = 1)𝑃(𝐷2| 𝐻 =\n1) but that for healthy patients the outcomes are coupled via𝑃(𝐷1 = 𝐷2 = 1| 𝐻 =\n0) = 0.02.\n1. Work out the joint probability table for𝐷1 and𝐷2, given𝐻 = 0 based on the infor-\nmation you have so far.\n2. Derive the probability that the patient is diseased (𝐻 = 1) after one test returns\npositive. You can assume the same baseline probability𝑃(𝐻 = 1) = 0.0015 as\nbefore.\n3. Derive the probability that the patient is diseased (𝐻 = 1) after both tests return\npositive.\n8. Assume that you are an asset manager for an investment bank and you have a choice of\nstocks𝑠𝑖 to invest in. Your portfolio needs to add up to1with weights𝛼𝑖 for each stock.\nThe stocks have an average return𝝁 =𝐸s∼𝑃[s] and covariance𝚺 = Covs∼𝑃[s].\n1. Compute the expected return for a given portfolio𝜶.\n2. If you wanted to maximize the return of the portfolio, how should you choose your\ninvestment?\n3. Compute thevariance of the portfolio.\n4. Formulateanoptimizationproblemofmaximizingthereturnwhilekeepingthevari-\nanceconstrainedtoanupperbound. ThisistheNobel-Prizewinning Markovitzport-\nfolio63 (Mangram, 2013). To solve it you will need a quadratic programming solver,\nsomething way beyond the scope of this book.\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Regression",
+      "Linear Regression"
+    ],
+    "pdf_page": 132,
+    "text": "Exercises\n1. Assume that we have some data𝑥1,...,𝑥 𝑛∈ R. Our goal is to find a constant𝑏 such\nthat ˝𝑖(𝑥𝑖−𝑏)2 is minimized.\n1. Find an analytic solution for the optimal value of𝑏.\n2. How does this problem and its solution relate to the normal distribution?\n3. What if we change the loss from˝𝑖(𝑥𝑖−𝑏)2 to ˝𝑖|𝑥𝑖−𝑏|? Can you find the optimal\nsolution for𝑏?\n2. Prove that the affine functions that can be expressed byx⊤w+𝑏 are equivalent to linear\nfunctions on(x, 1).\n3. Assume that you want to find quadratic functions ofx, i.e., 𝑓(x) = 𝑏+ ˝𝑖𝑤𝑖𝑥𝑖+˝\n𝑗≤𝑖𝑤𝑖𝑗𝑥𝑖𝑥𝑗. How would you formulate this in a deep network?\n4. Recall that one of the conditions for the linear regression problem to be solvable was\nthat the design matrixX⊤X has full rank.\n1. What happens if this is not the case?\n2. How could you fix it? What happens if you add a small amount of coordinate-wise\nindependent Gaussian noise to all entries ofX?\n3. What is the expected value of the design matrixX⊤X in this case?\n4. What happens with stochastic gradient descent whenX⊤X does not have full rank?\n5. Assume that the noise model governing the additive noise𝜖 is the exponential distribu-\ntion. That is,𝑝(𝜖) = 12 exp(−|𝜖|).\n1. Write out the negative log-likelihood of the data under the model− log𝑃(y| X).\n2. Can you find a closed form solution?\n3. Suggest a minibatch stochastic gradient descent algorithm to solve this problem.\nWhat could possibly go wrong (hint: what happens near the stationary point as we\nkeep on updating the parameters)? Can you fix this?\n6. Assume that we want to design a neural network with two layers by composing two\nlinear layers. That is, the output of the first layer becomes the input of the second layer.\nWhy would such a naive composition not work?\n7. What happens if you want to use regression for realistic price estimation of houses or\nstock prices?\n93 Object-Oriented Design for Implementation\n68\n69\n70\n1. Show that the additive Gaussian noise assumption is not appropriate. Hint: can we\nhave negative prices? What about fluctuations?\n2. Whywouldregressiontothelogarithmofthepricebemuchbetter,i.e., 𝑦 = logprice?\n3. Whatdoyouneedtoworryaboutwhendealingwithpennystock,i.e.,stockwithvery\nlow prices? Hint: can you trade at all possible prices? Why is this a bigger problem\nfor cheap stock? For more information review the celebrated Black–Scholes model\nfor option pricing (Black and Scholes, 1973).\n8. Suppose we want to use regression to estimate thenumber of apples sold in a grocery\nstore.\n1. What are the problems with a Gaussian additive noise model? Hint: you are selling\napples, not oil.\n2. The Poisson distribution68 captures distributions over counts. It is given by𝑝(𝑘|\n𝜆) = 𝜆𝑘𝑒−𝜆/𝑘!. Here𝜆 is the rate function and𝑘 is the number of events you see.\nProve that𝜆 is the expected value of counts𝑘.\n3. Design a loss function associated with the Poisson distribution.\n4. Design a loss function for estimatinglog𝜆 instead.\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Regression",
+      "Object-Oriented Design for Implementation"
+    ],
+    "pdf_page": 138,
+    "text": "Exercises\n1. Locate full implementations of the above classes that are saved in theD2L library73\n. We strongly recommend that you look at the implementation in detail once you have\ngained some more familiarity with deep learning modeling.\n99 Synthetic Regression Data\n74\n2. Removethe save_hyperparametersstatementinthe Bclass. Canyoustillprint self.a\nand self.b? Optional: if you have dived into the full implementation of theHyperPa-\nrameters class, can you explain why?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Regression",
+      "Synthetic Regression Data"
+    ],
+    "pdf_page": 142,
+    "text": "Exercises\n1. What will happen if the number of examples cannot be divided by the batch size. How\nwould you change this behavior by specifying a different argument by using the frame-\nwork’s API?\n2. Suppose that we want to generate a huge dataset, where both the size of the parameter\nvector w and the number of examplesnum_examples are large.\n1. What happens if we cannot hold all data in memory?\n2. Howwouldyoushufflethedataifitisheldondisk? Yourtaskistodesignan eﬀicient\nalgorithm that does not require too many random reads or writes. Hint:pseudoran-\ndom permutation generators75 allow you to design a reshuffle without the need to\nstore the permutation table explicitly (Naor and Reingold, 1999).\n3. Implement a data generator that produces new data on the fly, every time the iterator is\ncalled.\n4. How would you design a random data generator that generatesthe samedata each time\nit is called?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Regression",
+      "Linear Regression Implementation from Scratch"
+    ],
+    "pdf_page": 147,
+    "text": "Exercises\n1. What would happen if we were to initialize the weights to zero. Would the algorithm\nstill work? What if we initialized the parameters with variance1000 rather than0.01?\n2. Assume that you areGeorg Simon Ohm77 trying to come up with a model for resis-\ntance that relates voltage and current. Can you use automatic differentiation to learn the\nparameters of your model?\n3. Can you usePlanck’s Law78 to determine the temperature of an object using spectral\nenergy density? For reference, the spectral density𝐵 of radiation emanating from a\nblack body is𝐵(𝜆,𝑇) = 2ℎ𝑐2𝜆5 · (exp ℎ𝑐𝜆𝑘𝑇− 1)−1. Here 𝜆 is the wavelength,𝑇 is the\ntemperature, 𝑐 is the speed of light,ℎ is Planck’s constant, and𝑘 is the Boltzmann\nconstant. You measure the energy for different wavelengths𝜆 and you now need to fit\nthe spectral density curve to Planck’s law.\n4. Whataretheproblemsyoumightencounterifyouwantedtocomputethesecondderiva-\ntives of the loss? How would you fix them?\n5. Why is thereshape method needed in theloss function?\n6. Experimentusingdifferentlearningratestofindouthowquicklythelossfunctionvalue\ndrops. Can you reduce the error by increasing the number of epochs of training?\n108 Linear Neural Networks for Regression\n79\n7. Ifthenumberofexamplescannotbedividedbythebatchsize,whathappensto data_iter\nat the end of an epoch?\n8. Try implementing a different loss function, such as the absolute value loss(y_hat -\nd2l.reshape(y, y_hat.shape)).abs().sum() .\n1. Check what happens for regular data.\n2. Check whether there is a difference in behavior if you actively perturb some entries,\nsuch as𝑦5 = 10000, ofy.\n3. Can you think of a cheap solution for combining the best aspects of squared loss and\nabsolute value loss? Hint: how can you avoid really large gradient values?\n9. Why do we need to reshuffle the dataset? Can you design a case where a maliciously\nconstructed dataset would break the optimization algorithm otherwise?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Regression",
+      "Concise Implementation of Linear Regression"
+    ],
+    "pdf_page": 151,
+    "text": "Exercises\n1. How would you need to change the learning rate if you replace the aggregate loss over\nthe minibatch with an average over the loss on the minibatch?\n2. Review the framework documentation to see which loss functions are provided. In par-\nticular, replace the squared loss with Huber’s robust loss function. That is, use the loss\nfunction\n𝑙(𝑦,𝑦′) =\n{\n|𝑦−𝑦′|− 𝜎2 if|𝑦−𝑦′| >𝜎\n1\n2𝜎(𝑦−𝑦′)2 otherwise (3.5.1)\n3. How do you access the gradient of the weights of the model?\n112 Linear Neural Networks for Regression\n80\n4. What is the effect on the solution if you change the learning rate and the number of\nepochs? Does it keep on improving?\n5. How does the solution change as you vary the amount of data generated?\n1. Plot the estimation error forˆw− w and ˆ𝑏−𝑏 as a function of the amount of data.\nHint: increase the amount of data logarithmically rather than linearly, i.e., 5, 10, 20,\n50, …, 10,000 rather than 1000, 2000, …, 10,000.\n2. Why is the suggestion in the hint appropriate?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Regression",
+      "Generalization"
+    ],
+    "pdf_page": 157,
+    "text": "Exercises\n1. When can you solve the problem of polynomial regression exactly?\n118 Linear Neural Networks for Regression\n83\n2. Giveatleastfiveexampleswheredependentrandomvariablesmaketreatingtheproblem\nas IID data inadvisable.\n3. Can you ever expect to see zero training error? Under which circumstances would you\nsee zero generalization error?\n4. Why is𝐾-fold cross-validation very expensive to compute?\n5. Why is the𝐾-fold cross-validation error estimate biased?\n6. The VC dimension is defined as the maximum number of points that can be classified\nwith arbitrary labels{±1} by a function of a class of functions. Why might this not be\na good idea for measuring how complex the class of functions is? Hint: consider the\nmagnitude of the functions.\n7. Your manager gives you a difficult dataset on which your current algorithm does not\nperform so well. How would you justify to him that you need more data? Hint: you\ncannot increase the data but you can decrease it.\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Regression",
+      "Weight Decay"
+    ],
+    "pdf_page": 164,
+    "text": "Exercises\n1. Experiment with the value of𝜆 in the estimation problem in this section. Plot training\nand validation accuracy as a function of𝜆. What do you observe?\n2. Use a validation set to find the optimal value of𝜆. Is it really the optimal value? Does\nthis matter?\n3. What would the update equations look like if instead of‖w‖2 we used˝𝑖|𝑤𝑖| as our\npenalty of choice (ℓ1 regularization)?\n4. We know that‖w‖2 = w⊤w. Can you find a similar equation for matrices (see the\nFrobenius norm inSection 2.3.11)?\n5. Review the relationship between training error and generalization error. In addition to\nweight decay, increased training, and the use of a model of suitable complexity, what\nother ways might help us deal with overfitting?\n6. In Bayesian statistics we use the product of prior and likelihood to arrive at a posterior\nvia𝑃(𝑤|𝑥)∝ 𝑃(𝑥|𝑤)𝑃(𝑤). How can you identify𝑃(𝑤) with regularization?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Classification",
+      "Softmax Regression"
+    ],
+    "pdf_page": 172,
+    "text": "Exercises\n1. We can explore the connection between exponential families and softmax in some more\ndepth.\n1. Compute the second derivative of the cross-entropy loss𝑙(y, ˆy) for softmax.\n2. Computethevarianceofthedistributiongivenby softmax(o)andshowthatitmatches\nthe second derivative computed above.\n2. Assume that we have three classes which occur with equal probability, i.e., the proba-\nbility vector is( 13, 13, 13).\n1. What is the problem if we try to design a binary code for it?\n2. Can you design a better code? Hint: what happens if we try to encode two indepen-\ndent observations? What if we encode𝑛 observations jointly?\n3. When encoding signals transmitted over a physical wire, engineers do not always use\nbinary codes. For instance,PAM-389 uses three signal levels{−1, 0, 1} as opposed to\ntwo levels{0, 1}. How many ternary units do you need to transmit an integer in the\nrange{0,..., 7}? Why might this be a better idea in terms of electronics?\n4. The Bradley–Terry model90 uses a logistic model to capture preferences. For a user to\n133 Softmax Regression\n91\n92\nchoose between apples and oranges one assumes scores𝑜apple and𝑜orange. Our require-\nmentsarethatlargerscoresshouldleadtoahigherlikelihoodinchoosingtheassociated\nitem and that the item with the largest score is the most likely one to be chosen (Bradley\nand Terry, 1952).\n1. Prove that softmax satisfies this requirement.\n2. What happens if you want to allow for a default option of choosing neither apples\nnor oranges? Hint: now the user has three choices.\n5. Softmax gets its name from the following mapping: RealSoftMax(𝑎,𝑏) = log(exp(𝑎)+\nexp(𝑏)).\n1. Prove that RealSoftMax(𝑎,𝑏) > max(𝑎,𝑏).\n2. How small can you make the difference between both functions? Hint: without loss\nof generality you can set𝑏 = 0 and𝑎≥𝑏.\n3. Prove that this holds for𝜆−1RealSoftMax(𝜆𝑎,𝜆𝑏), provided that𝜆 >0.\n4. Show that for𝜆→∞ we have𝜆−1RealSoftMax(𝜆𝑎,𝜆𝑏)→ max(𝑎,𝑏).\n5. Construct an analogous softmin function.\n6. Extend this to more than two numbers.\n6. The function𝑔(x)\ndef\n= log˝𝑖 exp𝑥𝑖 is sometimes also referred to as thelog-partition\nfunction 91.\n1. Prove that the function is convex. Hint: to do so, use the fact that the first derivative\namounts to the probabilities from the softmax function and show that the second\nderivative is the variance.\n2. Show that𝑔 is translation invariant, i.e.,𝑔(x+𝑏) =𝑔(x).\n3. What happens if some of the coordinates𝑥𝑖 are very large? What happens if they’re\nall very small?\n4. Show that if we choose𝑏 = max𝑖𝑥𝑖 we end up with a numerically stable implemen-\ntation.\n7. Assume that we have some probability distribution𝑃. Suppose we pick another distri-\nbution𝑄 with𝑄(𝑖)∝ 𝑃(𝑖)𝛼 for𝛼 >0.\n1. Which choice of𝛼 corresponds to doubling the temperature? Which choice corre-\nsponds to halving it?\n2. What happens if we let the temperature approach0?\n3. What happens if we let the temperature approach∞?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Classification",
+      "The Image Classification Dataset"
+    ],
+    "pdf_page": 177,
+    "text": "Exercises\n1. Does reducing thebatch_size (for instance, to 1) affect the reading performance?\n2. The data iterator performance is important. Do you think the current implementation\nis fast enough? Explore various options to improve it. Use a system profiler to find out\nwhere the bottlenecks are.\n3. Check out the framework’s online API documentation. Which other datasets are avail-\nable?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Classification",
+      "The Base Classification Model"
+    ],
+    "pdf_page": 179,
+    "text": "Exercises\n1. Denote by𝐿v the validation loss, and let𝐿qv be its quick and dirty estimate computed\nby the loss function averaging in this section. Lastly, denote by𝑙bv the loss on the last\nminibatch. Express𝐿v in terms of𝐿qv,𝑙bv, and the sample and minibatch sizes.\n2. Show that the quick and dirty estimate𝐿qv is unbiased. That is, show that𝐸[𝐿v] =\n𝐸[𝐿qv]. Why would you still want to use𝐿v instead?\n3. Given a multiclass classification loss, denoting by𝑙(𝑦,𝑦′) the penalty of estimating\n𝑦′ when we see𝑦 and given a probabilty𝑝(𝑦 | 𝑥), formulate the rule for an optimal\nselection of𝑦′. Hint: express the expected loss, using𝑙 and𝑝(𝑦|𝑥).\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Classification",
+      "Softmax Regression Implementation from Scratch"
+    ],
+    "pdf_page": 184,
+    "text": "Exercises\n1. Inthissection,wedirectlyimplementedthesoftmaxfunctionbasedonthemathematical\ndefinitionofthesoftmaxoperation. Asdiscussedin Section4.1 thiscancausenumerical\ninstabilities.\n1. Test whethersoftmax still works correctly if an input has a value of100.\n2. Test whethersoftmax still works correctly if the largest of all inputs is smaller than\n−100?\n3. Implement a fix by looking at the value relative to the largest entry in the argument.\n2. Implement a cross_entropy function that follows the definition of the cross-entropy\nloss function˝𝑖𝑦𝑖 log ˆ𝑦𝑖.\n1. Try it out in the code example of this section.\n2. Why do you think it runs more slowly?\n3. Should you use it? When would it make sense to?\n4. What do you need to be careful of? Hint: consider the domain of the logarithm.\n3. Is it always a good idea to return the most likely label? For example, would you do this\nfor medical diagnosis? How would you try to address this?\n4. Assume that we want to use softmax regression to predict the next word based on some\nfeatures. What are some problems that might arise from a large vocabulary?\n5. Experiment with the hyperparameters of the code in this section. In particular:\n1. Plot how the validation loss changes as you change the learning rate.\n2. Do the validation and training loss change as you change the minibatch size? How\nlarge or small do you need to go before you see an effect?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Classification",
+      "Concise Implementation of Softmax Regression"
+    ],
+    "pdf_page": 187,
+    "text": "Exercises\n1. Deep learning uses many different number formats, including FP64 double precision\n(used extremely rarely), FP32 single precision, BFLOAT16 (good for compressed rep-\nresentations), FP16 (very unstable), TF32 (a new format from NVIDIA), and INT8.\nCompute the smallest and largest argument of the exponential function for which the\nresult does not lead to numerical underflow or overflow.\n2. INT8 is a very limited format consisting of nonzero numbers from1 to 255. How could\nyou extend its dynamic range without using more bits? Do standard multiplication and\naddition still work?\n3. Increasethenumberofepochsfortraining. Whymightthevalidationaccuracydecrease\nafter a while? How could we fix this?\n4. What happens as you increase the learning rate? Compare the loss curves for several\nlearning rates. Which one works better? When?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Classification",
+      "Generalization in Classification"
+    ],
+    "pdf_page": 194,
+    "text": "Exercises\n1. If we wish to estimate the error of a fixed model𝑓 to within 0.0001 with probability\ngreater than 99.9%, how many samples do we need?\n2. Suppose that somebody else possesses a labeled test setD and only makes available the\nunlabeled inputs (features). Now suppose that you can only access the test set labels by\nrunning a model𝑓 (with no restrictions placed on the model class) on each of the un-\nlabeled inputs and receiving the corresponding error𝜖D(𝑓). How many models would\nyou need to evaluate before you leak the entire test set and thus could appear to have\nerror 0, regardless of your true error?\n3. What is the VC dimension of the class of fifth-order polynomials?\n4. What is the VC dimension of axis-aligned rectangles on two-dimensional data?\n"
+  },
+  {
+    "path": [
+      "Linear Neural Networks for Classification",
+      "Environment and Distribution Shift"
+    ],
+    "pdf_page": 205,
+    "text": "Exercises\n1. What could happen when we change the behavior of a search engine? What might the\nusers do? What about the advertisers?\n2. Implement a covariate shift detector. Hint: build a classifier.\n3. Implement a covariate shift corrector.\n4. Besides distribution shift, what else could affect how the empirical risk approximates\nthe risk?\n"
+  },
+  {
+    "path": [
+      "Multilayer Perceptrons",
+      "Multilayer Perceptrons"
+    ],
+    "pdf_page": 215,
+    "text": "Exercises\n1. Show that adding layers to alinear deep network, i.e., a network without nonlinearity\n𝜎 can never increase the expressive power of the network. Give an example where it\nactively reduces it.\n2. Compute the derivative of the pReLU activation function.\n3. Compute the derivative of the Swish activation function𝑥 sigmoid(𝛽𝑥).\n4. Show that an MLP using only ReLU (or pReLU) constructs a continuous piecewise\nlinear function.\n5. Sigmoid and tanh are very similar.\n1. Show thattanh(𝑥)+ 1 = 2 sigmoid(2𝑥).\n2. Prove that the function classes parametrized by both nonlinearities are identical.\nHint: affine layers have bias terms, too.\n6. Assume that we have a nonlinearity that applies to one minibatch at a time, such as the\nbatch normalization (Ioffe and Szegedy, 2015). What kinds of problems do you expect\nthis to cause?\n7. Provide an example where the gradients vanish for the sigmoid activation function.\n"
+  },
+  {
+    "path": [
+      "Multilayer Perceptrons",
+      "Implementation of Multilayer Perceptrons"
+    ],
+    "pdf_page": 219,
+    "text": "Exercises\n1. Change the number of hidden unitsnum_hiddens and plot how its number affects the\naccuracy of the model. What is the best value of this hyperparameter?\n2. Try adding a hidden layer to see how it affects the results.\n3. Whyisitabadideatoinsertahiddenlayerwithasingleneuron? Whatcouldgowrong?\n4. How does changing the learning rate alter your results? With all other parameters fixed,\nwhich learning rate gives you the best results? How does this relate to the number of\nepochs?\n5. Let’s optimize over all hyperparameters jointly, i.e., learning rate, number of epochs,\nnumber of hidden layers, and number of hidden units per layer.\n1. What is the best result you can get by optimizing over all of them?\n2. Why it is much more challenging to deal with multiple hyperparameters?\n3. Describe an efficient strategy for optimizing over multiple parameters jointly.\n6. Compare the speed of the framework and the from-scratch implementation for a chal-\nlenging problem. How does it change with the complexity of the network?\n7. Measure the speed of tensor–matrix multiplications for well-aligned and misaligned\nmatrices. For instance, test for matrices with dimension 1024, 1025, 1026, 1028, and\n1032.\n1. How does this change between GPUs and CPUs?\n2. Determine the memory bus width of your CPU and GPU.\n8. Try out different activation functions. Which one works best?\n9. Is there a difference between weight initializations of the network? Does it matter?\n"
+  },
+  {
+    "path": [
+      "Multilayer Perceptrons",
+      "Forward Propagation, Backward Propagation, and Computational Graphs"
+    ],
+    "pdf_page": 223,
+    "text": "Exercises\n1. Assume that the inputsX to some scalar function𝑓 are𝑛×𝑚 matrices. What is the\ndimensionality of the gradient of𝑓 with respect toX?\n2. Add a bias to the hidden layer of the model described in this section (you do not need\nto include bias in the regularization term).\n1. Draw the corresponding computational graph.\n2. Derive the forward and backward propagation equations.\n3. Computethememoryfootprintfortrainingandpredictioninthemodeldescribedinthis\nsection.\n4. Assume that you want to compute second derivatives. What happens to the computa-\ntional graph? How long do you expect the calculation to take?\n184 Multilayer Perceptrons\n104\n5. Assume that the computational graph is too large for your GPU.\n1. Can you partition it over more than one GPU?\n2. What are the advantages and disadvantages over training on a smaller minibatch?\n"
+  },
+  {
+    "path": [
+      "Multilayer Perceptrons",
+      "Numerical Stability and Initialization"
+    ],
+    "pdf_page": 228,
+    "text": "Exercises\n1. Can you design other cases where a neural network might exhibit symmetry that needs\nbreaking, besides the permutation symmetry in an MLP’s layers?\n2. Can we initialize all weight parameters in linear regression or in softmax regression to\nthe same value?\n3. Look up analytic bounds on the eigenvalues of the product of two matrices. What does\nthis tell you about ensuring that gradients are well conditioned?\n4. If we know that some terms diverge, can we fix this after the fact? Look at the paper on\nlayerwise adaptive rate scaling for inspiration (Youet al., 2017).\n"
+  },
+  {
+    "path": [
+      "Multilayer Perceptrons",
+      "Generalization in Deep Learning"
+    ],
+    "pdf_page": 233,
+    "text": "Exercises\n1. Inwhatsensedotraditionalcomplexity-basedmeasuresfailtoaccountforgeneralization\nof deep neural networks?\n2. Why mightearly stoppingbe considered a regularization technique?\n3. How do researchers typically determine the stopping criterion?\n4. What important factor seems to differentiate cases when early stopping leads to big\nimprovements in generalization?\n5. Beyond generalization, describe another benefit of early stopping.\n"
+  },
+  {
+    "path": [
+      "Multilayer Perceptrons",
+      "Dropout"
+    ],
+    "pdf_page": 238,
+    "text": "Exercises\n1. What happens if you change the dropout probabilities for the first and second layers?\nIn particular, what happens if you switch the ones for both layers? Design an experi-\nment to answer these questions, describe your results quantitatively, and summarize the\nqualitative takeaways.\n2. Increase the number of epochs and compare the results obtained when using dropout\nwith those when not using it.\n3. What is the variance of the activations in each hidden layer when dropout is and is not\napplied? Draw a plot to show how this quantity evolves over time for both models.\n4. Why is dropout not typically used at test time?\n5. Using the model in this section as an example, compare the effects of using dropout and\n199 Predicting House Prices on Kaggle\n107\n108\nweightdecay. Whathappenswhendropoutandweightdecayareusedatthesametime?\nAre the results additive? Are there diminished returns (or worse)? Do they cancel each\nother out?\n6. What happens if we apply dropout to the individual weights of the weight matrix rather\nthan the activations?\n7. Invent another technique for injecting random noise at each layer that is different from\nthe standard dropout technique. Can you develop a method that outperforms dropout on\nthe Fashion-MNIST dataset (for a fixed architecture)?\n"
+  },
+  {
+    "path": [
+      "Multilayer Perceptrons",
+      "Predicting House Prices on Kaggle"
+    ],
+    "pdf_page": 246,
+    "text": "Exercises\n1. Submit your predictions for this section to Kaggle. How good are they?\n2. Is it always a good idea to replace missing values by a mean? Hint: can you construct a\nsituation where the values are not missing at random?\n3. Improve the score by tuning the hyperparameters through𝐾-fold cross-validation.\n4. Improve the score by improving the model (e.g., layers, weight decay, and dropout).\n5. What happens if we do not standardize the continuous numerical features as we have\ndone in this section?\n"
+  }
+]

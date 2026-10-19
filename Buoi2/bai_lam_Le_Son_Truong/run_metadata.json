@@ -1,0 +1,20 @@
+{
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.3.2",
+  "pandas": "2.3.2",
+  "matplotlib": "3.10.5",
+  "seed": 42,
+  "threads": 2,
+  "device": "cpu",
+  "cuda_available": false,
+  "source_sha256": {
+    "benchmark_gpu.py": "ca7e12985a6cb828ffb1aba4a9048773c03d5f49c7ece806f0c0c44079c50de2",
+    "build_submission.py": "92b7627d3721f1b62bf47ba523eecf08bf8fb04f8b61b6bd425ccbf3bed3239b",
+    "data.py": "b719ce6cac1d47c0399608c0f7f92cd848717f51c7f27353c80a2c65d5b1eac7",
+    "experiments.py": "b813af20dbdfafb368c4005450dd4a67bab5f978b780469c66d06327310eb761",
+    "house_prices.py": "6c14f5d4cd3db91abd7f25291676db35eef3060558ea56dd609b98048e843cf7",
+    "merge_submission_images.py": "7c7524541bf1ad407867f344f95244aea866971a073e6e5acd57dec102daf060",
+    "verify_results.py": "6175770378e07e9f23c8891e6dec60f75ef4f65d8b3eb95b941555a9e5602db9"
+  }
+}

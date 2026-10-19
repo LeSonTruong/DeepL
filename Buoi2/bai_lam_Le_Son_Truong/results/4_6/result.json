@@ -1,0 +1,9 @@
+{
+  "section": "4.6",
+  "tables": [],
+  "figures": [],
+  "notes": [
+    "Hoeffding sufficient n=380,045,123 for epsilon=0.0001, delta=0.001, fixed classifier and IID test draws.",
+    "Exact-error test oracle: baseline+N one-coordinate queries recovered labels [0, 1, 1, 0, 1, 0]."
+  ]
+}

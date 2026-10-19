@@ -1,0 +1,12 @@
+{
+  "section": "2.6",
+  "tables": [
+    "results\\2_6\\coin_variance.csv",
+    "results\\2_6\\bayes_exercise.csv",
+    "results\\2_6\\joint_given_healthy.csv"
+  ],
+  "figures": [
+    "results\\2_6\\variance_vs_n.png"
+  ],
+  "notes": []
+}

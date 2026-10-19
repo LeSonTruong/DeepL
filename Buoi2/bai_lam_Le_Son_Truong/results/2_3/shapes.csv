@@ -1,0 +1,4 @@
+﻿operation,shape
+sum dim 0,"(3, 4)"
+sum dim 1,"(2, 4)"
+sum dim 2,"(2, 3)"

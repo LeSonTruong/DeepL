@@ -1,0 +1,30 @@
+﻿chapter,section,pdf_page,questions,status,notebook
+1,1.9,69,4,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_1.ipynb
+2,2.1,77,2,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_2.ipynb
+2,2.2,80,5,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_2.ipynb
+2,2.3,93,12,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_2.ipynb
+2,2.4,99,10,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_2.ipynb
+2,2.5,104,8,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_2.ipynb
+2,2.6,117,8,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_2.ipynb
+2,2.7,118,0,no_numbered_exercises,Le_Son_Truong_Chuong_2.ipynb
+3,3.1,132,8,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_3.ipynb
+3,3.2,138,2,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_3.ipynb
+3,3.3,142,4,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_3.ipynb
+3,3.4,147,9,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_3.ipynb
+3,3.5,151,5,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_3.ipynb
+3,3.6,157,7,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_3.ipynb
+3,3.7,164,6,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_3.ipynb
+4,4.1,172,7,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_4.ipynb
+4,4.2,177,3,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_4.ipynb
+4,4.3,179,3,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_4.ipynb
+4,4.4,184,5,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_4.ipynb
+4,4.5,187,4,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_4.ipynb
+4,4.6,194,4,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_4.ipynb
+4,4.7,205,4,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_4.ipynb
+5,5.1,215,7,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_5.ipynb
+5,5.2,219,9,partial: answers and CPU results present; GPU timing pending CUDA,Le_Son_Truong_Chuong_5.ipynb
+5,5.3,223,5,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_5.ipynb
+5,5.4,228,4,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_5.ipynb
+5,5.5,233,5,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_5.ipynb
+5,5.6,238,7,answer_present; theory reviewed; see KIEM_TRA_LAI.md,Le_Son_Truong_Chuong_5.ipynb
+5,5.7,246,5,partial: local CV and CSV ready; Kaggle upload/leaderboard pending user account,Le_Son_Truong_Chuong_5.ipynb

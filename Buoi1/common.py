@@ -374,6 +374,18 @@ def run_experiments(configs, data, args, *, title, dataset, boundaries=False):
                 )
         runs = pd.DataFrame(rows)
         history = pd.DataFrame(histories)
+    summary = save_results(
+        configs, data, args, runs, history, models,
+        title=title, dataset=dataset, boundaries=boundaries,
+    )
+    return runs, history, summary, models
+
+
+def save_results(configs, data, args, runs, history, models, *, title, dataset, boundaries=False):
+    """Xuất kết quả chung cho script và notebook; trả về bảng tổng hợp."""
+    output_dir = args.output_dir.resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+    with threadpool_limits(limits=1):
         summary = aggregate(runs)
         runs.to_csv(output_dir / "runs.csv", index=False, encoding="utf-8-sig")
         history.to_csv(output_dir / "history.csv", index=False, encoding="utf-8-sig")
@@ -398,3 +410,4 @@ def run_experiments(configs, data, args, *, title, dataset, boundaries=False):
     (output_dir / "metadata.json").write_text(json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8")
     write_report(summary, data, args, title, dataset, output_dir, boundaries)
     print(f"\nSaved results: {output_dir}", flush=True)
+    return summary

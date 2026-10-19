@@ -1,0 +1,17 @@
+{
+  "section": "5.2",
+  "tables": [
+    "results\\5_2\\comparison.csv",
+    "results\\5_2\\history.csv",
+    "results\\5_2\\matrix_alignment_cpu.csv",
+    "results\\5_2\\equal_weights_speed.csv"
+  ],
+  "figures": [
+    "results\\5_2\\validation_learning_curves.png",
+    "results\\5_2\\neurons_vs_accuracy.png"
+  ],
+  "notes": [
+    "CUDA available=False. No GPU timing or physical memory-bus width is invented. CPU word size 64bit is not memory bus width; see hardware.json.",
+    "From-scratch vs framework speeds above include initialization differences. A separate equal-weight forward/backward benchmark follows."
+  ]
+}

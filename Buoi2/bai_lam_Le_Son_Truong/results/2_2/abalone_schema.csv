@@ -1,0 +1,10 @@
+﻿column,dtype,missing_fraction
+Sex,object,0.0
+Length,float64,0.0
+Diameter,float64,0.0
+Height,float64,0.0
+WholeWeight,float64,0.0
+ShuckedWeight,float64,0.0
+VisceraWeight,float64,0.0
+ShellWeight,float64,0.0
+Rings,int64,0.0

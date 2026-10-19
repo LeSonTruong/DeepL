@@ -1,0 +1,3 @@
+﻿model,parameters,parameter_bytes_fp32,parameter_plus_gradient_bytes_fp32,stored_X_Z_H_O_bytes_fp32
+original_no_bias,203264,813056,1626112,167168
+hidden_bias_added,203520,814080,1628160,167168

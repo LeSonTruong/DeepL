@@ -1,0 +1,15 @@
+{
+  "section": "4.5",
+  "tables": [
+    "results\\4_5\\exp_dynamic_range.csv",
+    "results\\4_5\\exp_measured_boundaries_cpu.csv",
+    "results\\4_5\\comparison.csv",
+    "results\\4_5\\history.csv"
+  ],
+  "figures": [
+    "results\\4_5\\validation_learning_curves.png"
+  ],
+  "notes": [
+    "LR curves reuse section 4.4, avoiding duplicate runs. FP16/BF16 subnormals may be flushed to zero by hardware. TF32 uses FP32 exponent but is a CUDA matmul mode, not CPU exp dtype."
+  ]
+}

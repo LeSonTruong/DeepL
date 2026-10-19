@@ -1,0 +1,13 @@
+{
+  "cpu": "AMD Ryzen 9 7945HX",
+  "cpu_cores": 16,
+  "cpu_threads": 32,
+  "cpu_address_width_bits": 64,
+  "ram_modules": 2,
+  "ram_module_data_width_bits": 64,
+  "ram_reported_speed_MT_s": 5600,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "pytorch_build": "2.14.1+cpu",
+  "cuda_available_in_environment": false,
+  "notes": "WMI AdapterRAM is not reliable for GPU memory capacities over 4 GiB; not used. Memory bus width is distinct from address width."
+}

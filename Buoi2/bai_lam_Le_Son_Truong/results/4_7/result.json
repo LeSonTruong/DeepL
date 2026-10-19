@@ -1,0 +1,10 @@
+{
+  "section": "4.7",
+  "tables": [
+    "results\\4_7\\shift_detection_correction.csv"
+  ],
+  "figures": [],
+  "notes": [
+    "Synthetic covariate shift with shared conditional y=x1+x2. Domain priors are equal; weights=p(target|x)/p(source|x). Correction needs overlap and unchanged p(y|x), not label/concept shift."
+  ]
+}

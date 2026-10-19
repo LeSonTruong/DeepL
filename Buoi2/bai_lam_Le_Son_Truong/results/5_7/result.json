@@ -1,0 +1,17 @@
+{
+  "section": "5.7",
+  "tables": [
+    "results\\5_7\\kfold_scores.csv",
+    "results\\5_7\\model_selection.csv",
+    "results\\5_7\\data_summary.csv",
+    "results\\5_7\\without_standardization.csv",
+    "results\\5_7\\submission_preview.csv"
+  ],
+  "figures": [
+    "results\\5_7\\kfold_model_comparison.png"
+  ],
+  "notes": [
+    "Selected config=mlp64_dropout; 5-fold log RMSE=0.26146; submission=Le_Son_Truong_submission.csv, 1459 rows.",
+    "Kaggle submission has NOT been uploaded. Leaderboard score is unknown; local CV score is not a Kaggle score. User must accept competition rules and upload via own account."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "section": "3.3",
+  "tables": [
+    "results\\3_3\\last_batch.csv"
+  ],
+  "figures": [],
+  "notes": [
+    "Fresh equal on two iterations: False; Fixed equal: True",
+    "    class Fresh(IterableDataset):\n        def __iter__(self):\n            for _ in range(3):\n                x=torch.randn(2);yield x,2*x[0]-3.4*x[1]+4.2\n\n    class Fixed(IterableDataset):\n        def __iter__(self):\n            g=torch.Generator().manual_seed(42)\n            for _ in range(3):\n                x=torch.randn(2,generator=g);yield x,2*x[0]-3.4*x[1]+4.2\n"
+  ]
+}

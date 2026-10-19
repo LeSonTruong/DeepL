@@ -1,0 +1,2 @@
+﻿name,epoch,train_loss,val_loss,train_accuracy,val_accuracy,seconds,hidden,lr,batch,activation,dropout,weight_decay,initialization,scratch
+softmax_longer_20epochs,20,0.4251361658732096,0.46681693115234374,0.8521666666666666,0.8314,2.477682700002333,(),0.1,256,relu,"(0.0, 0.0)",0.0,default,False

@@ -2,12 +2,44 @@
 
 Hai bài dùng scikit-learn, chạy bằng CPU, không cần tải dữ liệu từ Internet.
 
-## Cách chạy
+## Đọc và chạy notebook
 
-Từ thư mục gốc của repository, dùng Python 3.10 trở lên:
+Hai notebook là bản chính để học và trình bày, đã lưu sẵn bảng và biểu đồ:
+
+- [Bài 1 – MLP trên make_moons](bai01_class_mlp.ipynb).
+- [Bài 2 – Khảo sát MLP trên digits](bai01_homework_mlp_ablation.ipynb).
+
+Mỗi notebook chia thành các phần: nạp thư viện, chọn siêu tham số, xem dữ liệu,
+chọn cấu hình, đọc thuật toán huấn luyện, bảng so sánh, biểu đồ và nhận xét.
+Phần huấn luyện hiện ngay trong ô code; `common.py` cung cấp các tiện ích dùng chung.
+Giữ `common.py` cùng thư mục với notebook khi sao chép hoặc nộp bài.
+
+Để chạy lại, dùng Python 3.10 trở lên. Cài thư viện từ thư mục gốc của repository:
 
 ```powershell
 python -m pip install -r Buoi1/requirements.txt
+```
+
+Trong VS Code, mở file `.ipynb`, chọn **Select Kernel → Python Environments**
+và chọn Python đã cài thư viện, rồi nhấn **Run All**. Có thể chạy từng ô từ trên
+xuống dưới bằng **Shift+Enter**. VS Code cần extension Python và Jupyter để chạy notebook.
+
+Hoặc mở giao diện Jupyter từ thư mục gốc:
+
+```powershell
+python -m notebook Buoi1
+```
+
+Muốn chạy thử nhanh, sửa ô siêu tham số thành `EPOCHS = 20`, `SEEDS = [42]`.
+Sau khi chỉnh dữ liệu hoặc cấu hình, chạy lại toàn bộ notebook và lưu để cập nhật output.
+Kết quả mặc định được ghi đè trong `results/bai1` hoặc `results/bai2`;
+có thể sửa `args.output_dir` để lưu một lần chạy riêng.
+
+## Chạy bằng script
+
+Các file `.py` vẫn chạy được từ thư mục gốc:
+
+```powershell
 python Buoi1/bai01_class_mlp.py
 python Buoi1/bai01_homework_mlp_ablation.py
 ```
@@ -51,7 +83,8 @@ Learning curve vẫn bao gồm toàn bộ quá trình huấn luyện.
 - Trong mỗi thư mục kết quả: `summary.csv`, `runs.csv`, `history.csv`,
   `metadata.json`, `comparison.png`, `learning_loss.png`, `learning_accuracy.png`.
   Bài 1 có thêm `decision_boundaries.png`.
-- Mã nguồn: hai file bài tập, `common.py` và `requirements.txt`.
+- Mã nguồn chính: hai notebook `.ipynb`, `common.py` và `requirements.txt`.
+  Các file bài tập `.py` là cách chạy tương đương bằng dòng lệnh.
 
 CSV dùng UTF-8 BOM để mở thuận tiện bằng Excel. Accuracy và Macro-F1 trong
 CSV là tỷ lệ [0, 1]. Các biểu đồ có dải/thanh sai số thể hiện độ lệch chuẩn

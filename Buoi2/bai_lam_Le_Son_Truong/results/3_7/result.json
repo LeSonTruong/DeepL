@@ -1,0 +1,13 @@
+{
+  "section": "3.7",
+  "tables": [
+    "results\\3_7\\weight_decay.csv",
+    "results\\3_7\\exact_ridge_reference.csv"
+  ],
+  "figures": [
+    "results\\3_7\\regularization_curve.png"
+  ],
+  "notes": [
+    "Regression has no classification accuracy: report unpenalized MSE. Main curve is SGD, LR=.01, batch=5, 10 epochs, true bias=.05, no bias penalty. Exact ridge is a separate reference, not the SGD result."
+  ]
+}

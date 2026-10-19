@@ -1,0 +1,4 @@
+﻿name,epoch10_accuracy,epoch20_accuracy
+no_dropout,0.8588,0.873
+dropout_02_05,0.8555,0.8712
+dropout_05_02,0.8548,0.8701

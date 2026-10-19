@@ -1,0 +1,63 @@
+{
+  "dataset": "make_moons, n_samples=800, noise=0.25, random_state=42",
+  "train_samples": 640,
+  "validation_samples": 160,
+  "epochs": 20,
+  "seed": 42,
+  "split": "random_split 80/20, generator seed=42",
+  "scaling": "none (same as original code)",
+  "train_batch_size": 32,
+  "val_batch_size": 128,
+  "optimizer": "torch.optim.Adam",
+  "criterion": "torch.nn.CrossEntropyLoss",
+  "device": "cpu",
+  "torch_threads": 1,
+  "evaluation": "final epoch; validation only, no separate test set",
+  "configs": [
+    {
+      "name": "width8",
+      "hidden": [
+        8,
+        8
+      ],
+      "activation": "relu",
+      "lr": 0.001,
+      "dropout": 0.0,
+      "weight_decay": 0.0
+    },
+    {
+      "name": "width32",
+      "hidden": [
+        32,
+        32
+      ],
+      "activation": "relu",
+      "lr": 0.001,
+      "dropout": 0.0,
+      "weight_decay": 0.0
+    },
+    {
+      "name": "width64",
+      "hidden": [
+        64,
+        64
+      ],
+      "activation": "relu",
+      "lr": 0.001,
+      "dropout": 0.0,
+      "weight_decay": 0.0
+    },
+    {
+      "name": "width128",
+      "hidden": [
+        128,
+        128
+      ],
+      "activation": "relu",
+      "lr": 0.001,
+      "dropout": 0.0,
+      "weight_decay": 0.0
+    }
+  ],
+  "torch_version": "2.14.1+cpu"
+}

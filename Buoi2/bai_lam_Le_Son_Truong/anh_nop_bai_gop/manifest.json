@@ -1,0 +1,3357 @@
+{
+  "source_count": 137,
+  "merged_count": 10,
+  "method": "Lossless PNG; crop margins, repeated footer and empty white row bands; no content resizing",
+  "verified": "Every source page included exactly once; every retained pixel matches source",
+  "images": [
+    {
+      "file": "Le_Son_Truong_Chuong_1_Phan_1.png",
+      "size": [
+        995,
+        1530
+      ],
+      "columns": 1,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_001_gioi_thieu.png",
+          "page": 1,
+          "source_sha256": "703d2a12871a0efe4fa06c2cb7399fb831c020fb11aa89d9f41b4596d611d0c6",
+          "crop_box": [
+            61,
+            43,
+            1008,
+            403
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              360
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            971,
+            544
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_002_c1_1_9_loi_giai.png",
+          "page": 2,
+          "source_sha256": "12d32df320a765dd7a94e21b7c5ad87d9a104defbc9f2e21c3ca60c8fb9f23e6",
+          "crop_box": [
+            61,
+            43,
+            852,
+            923
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              880
+            ]
+          ],
+          "destination_box": [
+            24,
+            602,
+            815,
+            1482
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_Chuong_2_Phan_1.png",
+      "size": [
+        3036,
+        3257
+      ],
+      "columns": 3,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_003_c2_2_1_loi_giai.png",
+          "page": 3,
+          "source_sha256": "339d5367c084a7cfc1807a4d0fc924ac4edd43c8b32d7efa03abfe81ba54916a",
+          "crop_box": [
+            61,
+            43,
+            818,
+            447
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              404
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            781,
+            588
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_004_2.1_output.png",
+          "page": 4,
+          "source_sha256": "c6701cd62040be6009949e9c33017fb5a0fb9f0a161d026388f9cf9ec857e6f6",
+          "crop_box": [
+            61,
+            43,
+            940,
+            341
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              298
+            ]
+          ],
+          "destination_box": [
+            24,
+            646,
+            903,
+            944
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_005_2.1_tensor_operations.png",
+          "page": 5,
+          "source_sha256": "b0882fb0d67d076ec128df94aef5626e7425158f6c441a234ed6fc3a8b9d2d18",
+          "crop_box": [
+            61,
+            43,
+            1041,
+            938
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              895
+            ]
+          ],
+          "destination_box": [
+            24,
+            1002,
+            1004,
+            1897
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_006_c2_2_2_loi_giai.png",
+          "page": 6,
+          "source_sha256": "1605bab8e3943bba336cd6ba5169c716f40fa0247d8e1c9d2c07851edc7afae2",
+          "crop_box": [
+            61,
+            43,
+            957,
+            1020
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              977
+            ]
+          ],
+          "destination_box": [
+            24,
+            1955,
+            920,
+            2932
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_007_2.2_output.png",
+          "page": 7,
+          "source_sha256": "26cfbaa8ad605a1babe157428e9c6c0b68e37e18743e767ce6e98a5b27965abb",
+          "crop_box": [
+            61,
+            43,
+            710,
+            160
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              117
+            ]
+          ],
+          "destination_box": [
+            24,
+            2990,
+            673,
+            3107
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_008_2.2_abalone_head.png",
+          "page": 8,
+          "source_sha256": "5399973731df663604df8b3a9e24ca0800eceb59c080a1636a9366d20751d775",
+          "crop_box": [
+            62,
+            43,
+            942,
+            270
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              227
+            ]
+          ],
+          "destination_box": [
+            1028,
+            184,
+            1908,
+            411
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_009_2.2_abalone_schema.png",
+          "page": 9,
+          "source_sha256": "561f01429d680a901ec36f903df3aa81fb95a35b25831232a96e6593703f7959",
+          "crop_box": [
+            61,
+            43,
+            598,
+            366
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              323
+            ]
+          ],
+          "destination_box": [
+            1028,
+            469,
+            1565,
+            792
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_010_2.2_named_selection.png",
+          "page": 10,
+          "source_sha256": "45adee1dfcc5b47f06234b9f25ea4b97106c10b53bf368f220fb0f5add84837a",
+          "crop_box": [
+            62,
+            43,
+            602,
+            270
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              227
+            ]
+          ],
+          "destination_box": [
+            1028,
+            850,
+            1568,
+            1077
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_011_2.2_memory_measurements.png",
+          "page": 11,
+          "source_sha256": "a6124f0ab6b80061624597a7e01f5136b5609a4134fff1fb6fb0e2a62ab83895",
+          "crop_box": [
+            61,
+            43,
+            704,
+            225
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              182
+            ]
+          ],
+          "destination_box": [
+            1028,
+            1135,
+            1671,
+            1317
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_012_c2_2_3_loi_giai.png",
+          "page": 12,
+          "source_sha256": "b0443cd157ac0057fb3337f389c1b8e2187506549c390a43486b99e925bce302",
+          "crop_box": [
+            61,
+            43,
+            886,
+            1459
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1416
+            ]
+          ],
+          "destination_box": [
+            1028,
+            1375,
+            1853,
+            2791
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_013_c2_2_3_loi_giai.png",
+          "page": 13,
+          "source_sha256": "ccea26d4aa969219150be07eada8f083f399c74027d512e11fb85bb7d441361f",
+          "crop_box": [
+            61,
+            43,
+            915,
+            403
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              360
+            ]
+          ],
+          "destination_box": [
+            1028,
+            2849,
+            1882,
+            3209
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_014_2.3_output.png",
+          "page": 14,
+          "source_sha256": "67697296bc71740c71fc731edffe9436a0a556eedea6fb1fa6408e64e3eb92b6",
+          "crop_box": [
+            61,
+            43,
+            939,
+            272
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              229
+            ]
+          ],
+          "destination_box": [
+            2032,
+            184,
+            2910,
+            413
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_015_2.3_shapes.png",
+          "page": 15,
+          "source_sha256": "1abec317b4c104d975ed568f02c41a38bd39b9d6ac25b358057e4c04f6b18fe8",
+          "crop_box": [
+            61,
+            43,
+            464,
+            226
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              183
+            ]
+          ],
+          "destination_box": [
+            2032,
+            471,
+            2435,
+            654
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_016_2.3_row_normalization.png",
+          "page": 16,
+          "source_sha256": "3714c4d68509f5350d599e54a0e80c4bee740a6a689c2e7afc41953d89f0da38",
+          "crop_box": [
+            62,
+            43,
+            625,
+            270
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              227
+            ]
+          ],
+          "destination_box": [
+            2032,
+            712,
+            2595,
+            939
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_017_2.3_original_chain_cost.png",
+          "page": 17,
+          "source_sha256": "73ffeb0825492b99a141df8edca068f32c86d7f6990b1c4a7f67146cc61daa38",
+          "crop_box": [
+            61,
+            43,
+            635,
+            204
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              161
+            ]
+          ],
+          "destination_box": [
+            2032,
+            997,
+            2606,
+            1158
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_018_2.3_chain_benchmark.png",
+          "page": 18,
+          "source_sha256": "55139b385d9b574865872791a1531a7116ff5f2cd5d744d460590935378926d3",
+          "crop_box": [
+            61,
+            43,
+            613,
+            204
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              161
+            ]
+          ],
+          "destination_box": [
+            2032,
+            1216,
+            2584,
+            1377
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_019_2.3_layout_benchmark.png",
+          "page": 19,
+          "source_sha256": "a956baa82b891abab32ba1343e1dc240881a966b164af28151a28a6850d3c4e3",
+          "crop_box": [
+            62,
+            43,
+            626,
+            229
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              186
+            ]
+          ],
+          "destination_box": [
+            2032,
+            1435,
+            2596,
+            1621
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_020_c2_2_4_loi_giai.png",
+          "page": 20,
+          "source_sha256": "4afb18acd454de6340983a10fd39da8b29a95c029b198271dcef8474a1e20078",
+          "crop_box": [
+            61,
+            43,
+            853,
+            1488
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1445
+            ]
+          ],
+          "destination_box": [
+            2032,
+            1679,
+            2824,
+            3124
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_Chuong_2_Phan_2.png",
+      "size": [
+        3312,
+        3090
+      ],
+      "columns": 3,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_021_c2_2_4_loi_giai.png",
+          "page": 21,
+          "source_sha256": "534dac63ba9a0f173362e23e66c666b2646e5c7476630c621bcd5805a4999940",
+          "crop_box": [
+            61,
+            43,
+            682,
+            161
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              118
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            645,
+            302
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_022_2.4_output.png",
+          "page": 22,
+          "source_sha256": "a646b73948868a5ad5e04f934dd995a2b64b507030f7db2d6985890f8370e720",
+          "crop_box": [
+            62,
+            43,
+            515,
+            159
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              116
+            ]
+          ],
+          "destination_box": [
+            24,
+            360,
+            477,
+            476
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_023_2.4_function_and_tangent.png",
+          "page": 23,
+          "source_sha256": "d52390b49da9f21069e75885ced8255ddad5b558a9f573d2edfe6f77fcbc3218",
+          "crop_box": [
+            46,
+            18,
+            1118,
+            1139
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              522,
+              1121
+            ]
+          ],
+          "destination_box": [
+            24,
+            534,
+            1096,
+            1219
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_024_c2_2_5_loi_giai.png",
+          "page": 24,
+          "source_sha256": "cc11a6bd9b94ee2fd73eff58665eaf122e9487d070008ab5c4ee0da7e7af22d1",
+          "crop_box": [
+            61,
+            43,
+            888,
+            1404
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1361
+            ]
+          ],
+          "destination_box": [
+            24,
+            1277,
+            851,
+            2638
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_025_2.5_output.png",
+          "page": 25,
+          "source_sha256": "521e70ffc2c31586290f6517e33be3e161cf0707300ee432490e051dff933059",
+          "crop_box": [
+            61,
+            43,
+            993,
+            389
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              346
+            ]
+          ],
+          "destination_box": [
+            24,
+            2696,
+            956,
+            3042
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_026_2.5_chain_rule.png",
+          "page": 26,
+          "source_sha256": "ad9181f357f3e864e1e01d5ba354b8796918faac1dc73860345004625231d7cf",
+          "crop_box": [
+            62,
+            43,
+            557,
+            179
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              136
+            ]
+          ],
+          "destination_box": [
+            1120,
+            184,
+            1615,
+            320
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_027_2.5_sin_autograd.png",
+          "page": 27,
+          "source_sha256": "72541897a145c9eee0cb1466c589b99ad166d4a9cc8c8fb070b6c22a9d81bedf",
+          "crop_box": [
+            46,
+            18,
+            1118,
+            1139
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1121
+            ]
+          ],
+          "destination_box": [
+            1120,
+            378,
+            2192,
+            1066
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_028_c2_2_6_loi_giai.png",
+          "page": 28,
+          "source_sha256": "7f080b25f24787e282bfb3031fa63c4676d9b7445b53e28562f842163a9d7efe",
+          "crop_box": [
+            61,
+            43,
+            903,
+            1453
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1410
+            ]
+          ],
+          "destination_box": [
+            1120,
+            1124,
+            1962,
+            2534
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_029_2.6_coin_variance.png",
+          "page": 29,
+          "source_sha256": "1b35479c7b5e4cfa0f3ddae08ece406f894fac03d96ce748c20b12022cb8eeac",
+          "crop_box": [
+            62,
+            43,
+            557,
+            248
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              205
+            ]
+          ],
+          "destination_box": [
+            1120,
+            2592,
+            1615,
+            2797
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_030_2.6_bayes_exercise.png",
+          "page": 30,
+          "source_sha256": "f2734f3ee423f12fd50df7fc1abde21bf464a4b368ac8ecdc594014d68c5e9e0",
+          "crop_box": [
+            61,
+            43,
+            579,
+            205
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              162
+            ]
+          ],
+          "destination_box": [
+            2216,
+            184,
+            2734,
+            346
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_031_2.6_joint_given_healthy.png",
+          "page": 31,
+          "source_sha256": "5caf74e2d11a5e05700a69ba292162e169b5b7f0bda52dc1f13c938d868d0d98",
+          "crop_box": [
+            63,
+            43,
+            640,
+            247
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              204
+            ]
+          ],
+          "destination_box": [
+            2216,
+            404,
+            2793,
+            608
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_032_2.6_variance_vs_n.png",
+          "page": 32,
+          "source_sha256": "84f86160f980a70be58a58c43a6539df351e83689e006111a6fb1ed2dc735551",
+          "crop_box": [
+            53,
+            18,
+            1115,
+            1179
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              471,
+              1161
+            ]
+          ],
+          "destination_box": [
+            2216,
+            666,
+            3278,
+            1442
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_033_c2_2_7_loi_giai.png",
+          "page": 33,
+          "source_sha256": "dbdef03cdfddeafb40b4c5e0425c791fac427da18f2a602776df5cf4da504275",
+          "crop_box": [
+            62,
+            43,
+            814,
+            233
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              190
+            ]
+          ],
+          "destination_box": [
+            2216,
+            1500,
+            2968,
+            1690
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_034_2.7_output.png",
+          "page": 34,
+          "source_sha256": "8a17c13306893c09d2ad750e1ae9c3df61ebeefb6f2911b77bdf47bdb14cf0de",
+          "crop_box": [
+            61,
+            43,
+            820,
+            1190
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1147
+            ]
+          ],
+          "destination_box": [
+            2216,
+            1748,
+            2975,
+            2895
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_Chuong_3_Phan_1.png",
+      "size": [
+        3306,
+        3300
+      ],
+      "columns": 3,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_035_c3_3_1_loi_giai.png",
+          "page": 35,
+          "source_sha256": "744e1dbd1166b09e1c85f95b7e924b6cf6fb3f6a4b12c970e7e82719505dea07",
+          "crop_box": [
+            61,
+            43,
+            945,
+            1521
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1478
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            908,
+            1662
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_036_c3_3_1_loi_giai.png",
+          "page": 36,
+          "source_sha256": "e21d1ce93422b0aa9ce8c1019adf65cc20992d762e2117852a0be36770c4478e",
+          "crop_box": [
+            61,
+            43,
+            825,
+            304
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              261
+            ]
+          ],
+          "destination_box": [
+            24,
+            1720,
+            788,
+            1981
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_037_3.1_output.png",
+          "page": 37,
+          "source_sha256": "cd753e4b626072970382ec4a5407b318518c55d383bda1fcc79d12dcd7210a5c",
+          "crop_box": [
+            62,
+            43,
+            757,
+            160
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              117
+            ]
+          ],
+          "destination_box": [
+            24,
+            2039,
+            719,
+            2156
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_038_3.1_analytic_regression.png",
+          "page": 38,
+          "source_sha256": "322acf5ebde8072a187526614e081201868f38a944f8a014515d635ef21f399c",
+          "crop_box": [
+            62,
+            43,
+            640,
+            224
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              181
+            ]
+          ],
+          "destination_box": [
+            24,
+            2214,
+            602,
+            2395
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_039_c3_3_2_loi_giai.png",
+          "page": 39,
+          "source_sha256": "7e8d0fec835c581591fd559cebdc788cb93ef599cc9fdb61a5a3521cb4c1b88c",
+          "crop_box": [
+            61,
+            43,
+            833,
+            597
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              554
+            ]
+          ],
+          "destination_box": [
+            24,
+            2453,
+            796,
+            3007
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_040_3.2_output.png",
+          "page": 40,
+          "source_sha256": "6e8fc40cb209c72944b4390f66dcb338b75fc24c292e7e90fa578ea12337b656",
+          "crop_box": [
+            61,
+            43,
+            985,
+            230
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              187
+            ]
+          ],
+          "destination_box": [
+            24,
+            3065,
+            948,
+            3252
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_041_c3_3_3_loi_giai.png",
+          "page": 41,
+          "source_sha256": "d39bd537aeb70a04cff26dbc4b601286d11b08914662d47ceeb965c4b85c6723",
+          "crop_box": [
+            61,
+            43,
+            889,
+            790
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              747
+            ]
+          ],
+          "destination_box": [
+            1118,
+            184,
+            1946,
+            931
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_042_3.3_output.png",
+          "page": 42,
+          "source_sha256": "12236eb0c2e0fd958044e086895b4fda619f1921644a71f3da2a33009f8edb51",
+          "crop_box": [
+            62,
+            43,
+            694,
+            413
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              370
+            ]
+          ],
+          "destination_box": [
+            1118,
+            989,
+            1750,
+            1359
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_043_3.3_last_batch.png",
+          "page": 43,
+          "source_sha256": "490c5e532e05e2142922214337253ed8152570a656613031a60b48642236e42a",
+          "crop_box": [
+            63,
+            43,
+            509,
+            205
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              162
+            ]
+          ],
+          "destination_box": [
+            1118,
+            1417,
+            1564,
+            1579
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_044_c3_3_4_loi_giai.png",
+          "page": 44,
+          "source_sha256": "a7a3dafb59607267a2760fcae42e6f775ca8a1eee8ec9840c7e0c37ce6a33434",
+          "crop_box": [
+            61,
+            43,
+            867,
+            1489
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1446
+            ]
+          ],
+          "destination_box": [
+            1118,
+            1637,
+            1924,
+            3083
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_045_c3_3_4_loi_giai.png",
+          "page": 45,
+          "source_sha256": "32b70cb79432807458ccfc5a2b924d3b7f7a36ed48ff4d0780479ff009443b14",
+          "crop_box": [
+            62,
+            43,
+            913,
+            283
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              240
+            ]
+          ],
+          "destination_box": [
+            2212,
+            184,
+            3063,
+            424
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_046_3.4_output.png",
+          "page": 46,
+          "source_sha256": "ae710f45ab1d3999ecc43a5bb972551da93fa46eafa9ce4e61c9c1bd6818a266",
+          "crop_box": [
+            61,
+            43,
+            926,
+            274
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              231
+            ]
+          ],
+          "destination_box": [
+            2212,
+            482,
+            3077,
+            713
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_047_3.4_initialization.png",
+          "page": 47,
+          "source_sha256": "bed872af6dd1fc3eb2b832b37c5d95c72b29b55f8cbb5d3724b02d8ac63e7648",
+          "crop_box": [
+            63,
+            43,
+            541,
+            248
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              205
+            ]
+          ],
+          "destination_box": [
+            2212,
+            771,
+            2690,
+            976
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_048_3.4_learning_rates.png",
+          "page": 48,
+          "source_sha256": "a3da40a61c3f6402811aa5aa82009bec1b4d46012c2264487994b463c0eeb57e",
+          "crop_box": [
+            62,
+            43,
+            568,
+            225
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              182
+            ]
+          ],
+          "destination_box": [
+            2212,
+            1034,
+            2718,
+            1216
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_049_3.4_robust_losses.png",
+          "page": 49,
+          "source_sha256": "eb6f6fbb26bdceb82b94b49915d19fa6d63267815ef29916fe008c3a22a2e35d",
+          "crop_box": [
+            63,
+            43,
+            558,
+            293
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              250
+            ]
+          ],
+          "destination_box": [
+            2212,
+            1274,
+            2707,
+            1524
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_050_3.4_learning_rates.png",
+          "page": 50,
+          "source_sha256": "cac21750bbe3f1e543a8dcfe61d616e4f75a723f9eb89e2ef03540ce985d410e",
+          "crop_box": [
+            48,
+            18,
+            1118,
+            1139
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              518,
+              1121
+            ]
+          ],
+          "destination_box": [
+            2212,
+            1582,
+            3282,
+            2271
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_Chuong_3_Phan_2.png",
+      "size": [
+        3366,
+        3196
+      ],
+      "columns": 3,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_051_c3_3_5_loi_giai.png",
+          "page": 51,
+          "source_sha256": "bca29d139bf43b7c544fc5f15d1ccde3aea4119d29e49b6e1cb7cbe3739c2b6b",
+          "crop_box": [
+            61,
+            43,
+            910,
+            1005
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              962
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            873,
+            1146
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_052_3.5_output.png",
+          "page": 52,
+          "source_sha256": "291056c0f1a3b5863b622c81fa86171af179dbadc09755d849643957f3d954ee",
+          "crop_box": [
+            61,
+            43,
+            1025,
+            251
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              208
+            ]
+          ],
+          "destination_box": [
+            24,
+            1204,
+            988,
+            1412
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_053_3.5_data_size.png",
+          "page": 53,
+          "source_sha256": "ecb6d9dd8933343412efed08767377fc328ef00e61dc61d6c3a3bb9b83895dfb",
+          "crop_box": [
+            62,
+            43,
+            858,
+            385
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              342
+            ]
+          ],
+          "destination_box": [
+            24,
+            1470,
+            820,
+            1812
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_054_3.5_parameter_error_vs_data.png",
+          "page": 54,
+          "source_sha256": "a85fe9abc81166f18549fd3441a4be097d2ff679e73b369fe70d13e541186d7c",
+          "crop_box": [
+            35,
+            18,
+            1125,
+            1036
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              624,
+              1018
+            ]
+          ],
+          "destination_box": [
+            24,
+            1870,
+            1114,
+            2350
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_055_c3_3_6_loi_giai.png",
+          "page": 55,
+          "source_sha256": "f0f028bb5a2b2da28885837d39a75b93fb7575cf41bcac168edbe8860a3f1640",
+          "crop_box": [
+            61,
+            43,
+            979,
+            1222
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1179
+            ]
+          ],
+          "destination_box": [
+            1138,
+            184,
+            2056,
+            1363
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_056_3.6_learning_curve.png",
+          "page": 56,
+          "source_sha256": "abbd70e82fe8e06853a1528656ad16c065bf3a30a1973558515aa822076da07c",
+          "crop_box": [
+            62,
+            43,
+            574,
+            339
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              296
+            ]
+          ],
+          "destination_box": [
+            1138,
+            1421,
+            1650,
+            1717
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_057_3.6_data_learning_curve.png",
+          "page": 57,
+          "source_sha256": "b0f1549da35d6416a7a8395030363f0a2e9f3bd874db32ee36fa23afa6463c6a",
+          "crop_box": [
+            46,
+            18,
+            1118,
+            1133
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              518,
+              1115
+            ]
+          ],
+          "destination_box": [
+            1138,
+            1775,
+            2210,
+            2458
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_058_c3_3_7_loi_giai.png",
+          "page": 58,
+          "source_sha256": "23cfab39baa0a0f3a564b8e64acbdbf75bed002a21162ea497d65dbb4a1ba3a6",
+          "crop_box": [
+            60,
+            43,
+            878,
+            1140
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1097
+            ]
+          ],
+          "destination_box": [
+            2252,
+            184,
+            3070,
+            1281
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_059_3.7_output.png",
+          "page": 59,
+          "source_sha256": "b365cc4ae8248049b1996269e2406ed4d9e06ca1065c2671cf26b1a3a412034d",
+          "crop_box": [
+            62,
+            43,
+            979,
+            201
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              158
+            ]
+          ],
+          "destination_box": [
+            2252,
+            1339,
+            3169,
+            1497
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_060_3.7_ket_luan.png",
+          "page": 60,
+          "source_sha256": "a6ef56c59077e9dda91465f00794111794f4602cce7f1b7ce733ee9b65181b08",
+          "crop_box": [
+            62,
+            43,
+            988,
+            211
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              168
+            ]
+          ],
+          "destination_box": [
+            2252,
+            1555,
+            3178,
+            1723
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_061_3.7_weight_decay.png",
+          "page": 61,
+          "source_sha256": "02b072437397164363bf74aafddfe9021950d2abc112680aeef7d1206edc2354",
+          "crop_box": [
+            63,
+            43,
+            558,
+            293
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              250
+            ]
+          ],
+          "destination_box": [
+            2252,
+            1781,
+            2747,
+            2031
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_062_3.7_exact_ridge_reference.png",
+          "page": 62,
+          "source_sha256": "abfc02d77ec16633b23e0f1dbc5dc60f36f919677fdc3137e77656911485d062",
+          "crop_box": [
+            63,
+            43,
+            679,
+            362
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              319
+            ]
+          ],
+          "destination_box": [
+            2252,
+            2089,
+            2868,
+            2408
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_063_3.7_regularization_curve.png",
+          "page": 63,
+          "source_sha256": "4fae349b938d37afc17572e8e176053a63aef6b48dce2e59cd8f36166b57a79b",
+          "crop_box": [
+            48,
+            18,
+            1118,
+            1133
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1115
+            ]
+          ],
+          "destination_box": [
+            2252,
+            2466,
+            3322,
+            3148
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_Chuong_4_Phan_1.png",
+      "size": [
+        3342,
+        2317
+      ],
+      "columns": 3,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_064_c4_4_1_loi_giai.png",
+          "page": 64,
+          "source_sha256": "f9276c0b5e3bf73c40b59c81706985a35e8d6cf260632eca3e3eef8f77f5b754",
+          "crop_box": [
+            61,
+            43,
+            914,
+            1512
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1469
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            877,
+            1653
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_065_c4_4_1_loi_giai.png",
+          "page": 65,
+          "source_sha256": "656485e00c3b675d4b250b3eef3edd235e7569d6c4ec41a17ed879d542e17444",
+          "crop_box": [
+            61,
+            43,
+            843,
+            187
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              144
+            ]
+          ],
+          "destination_box": [
+            24,
+            1711,
+            806,
+            1855
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_066_4.1_output.png",
+          "page": 66,
+          "source_sha256": "77f4e79773e4d80cc7e8269a0186fb42ac1126c4216ff12d686f981abd60f8ec",
+          "crop_box": [
+            62,
+            43,
+            622,
+            160
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              117
+            ]
+          ],
+          "destination_box": [
+            24,
+            1913,
+            584,
+            2030
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_067_4.1_hessian.png",
+          "page": 67,
+          "source_sha256": "b66187972b0747f40214016186231222a6e614b6c134b927bed17c525da2f9ec",
+          "crop_box": [
+            61,
+            43,
+            472,
+            224
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              181
+            ]
+          ],
+          "destination_box": [
+            24,
+            2088,
+            435,
+            2269
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_068_4.1_one_hot_covariance.png",
+          "page": 68,
+          "source_sha256": "7a657e0ee1f6dbf09e7a8d7522b6e8ec7e9e440406490780f9b1ac062be7fa98",
+          "crop_box": [
+            61,
+            43,
+            644,
+            224
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              181
+            ]
+          ],
+          "destination_box": [
+            1130,
+            184,
+            1713,
+            365
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_069_c4_4_2_loi_giai.png",
+          "page": 69,
+          "source_sha256": "399318960d1a54c8d9f9d4b61ab2a02f5c32d72271a41364286ff626575f6d7d",
+          "crop_box": [
+            61,
+            43,
+            915,
+            693
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              650
+            ]
+          ],
+          "destination_box": [
+            1130,
+            423,
+            1984,
+            1073
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_070_4.2_output.png",
+          "page": 70,
+          "source_sha256": "ac90257643b4ce79b02c202114fa755698e43eb915ce0793970ae14e6c311eba",
+          "crop_box": [
+            61,
+            43,
+            979,
+            1149
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              970
+            ],
+            [
+              1035,
+              1106
+            ]
+          ],
+          "destination_box": [
+            1130,
+            1131,
+            2048,
+            2172
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_071_4.2_data_iterator_speed.png",
+          "page": 71,
+          "source_sha256": "9365d58fe37823863d15e2262774032f6927dc32bb9ad1b0b26fd2a57deddb91",
+          "crop_box": [
+            63,
+            43,
+            648,
+            248
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              205
+            ]
+          ],
+          "destination_box": [
+            2236,
+            184,
+            2821,
+            389
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_072_4.2_batch_fetch_optimization.png",
+          "page": 72,
+          "source_sha256": "d281d4b08717a86d797767be1fef32b1a4e13b238923f599ded235f8dc89869a",
+          "crop_box": [
+            61,
+            43,
+            734,
+            183
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              140
+            ]
+          ],
+          "destination_box": [
+            2236,
+            447,
+            2909,
+            587
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_073_4.2_fashion_examples.png",
+          "page": 73,
+          "source_sha256": "368ded8293262c7cfad95827e93c3efe1870bff04467edab1ec80a36e4bec80c",
+          "crop_box": [
+            39,
+            18,
+            1121,
+            1075
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              578,
+              1057
+            ]
+          ],
+          "destination_box": [
+            2236,
+            645,
+            3318,
+            1210
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_074_c4_4_3_loi_giai.png",
+          "page": 74,
+          "source_sha256": "bf1e31488a455754631c9879ae8f0df1bdcaf29071849b43f1bb957eb39f4e38",
+          "crop_box": [
+            61,
+            43,
+            874,
+            692
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              649
+            ]
+          ],
+          "destination_box": [
+            2236,
+            1268,
+            3049,
+            1917
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_075_4.3_batch_average.png",
+          "page": 75,
+          "source_sha256": "ea30fd0eac2b1a5269f4bb0a628d4929e896e7a55d330575c517cd2ef146eef3",
+          "crop_box": [
+            62,
+            43,
+            775,
+            179
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              136
+            ]
+          ],
+          "destination_box": [
+            2236,
+            1975,
+            2949,
+            2111
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_Chuong_4_Phan_2.png",
+      "size": [
+        3333,
+        3105
+      ],
+      "columns": 3,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_076_c4_4_4_loi_giai.png",
+          "page": 76,
+          "source_sha256": "c5a2cb59fbe7d943554cb21a23739e2c13e6b0d68f7daed31efa56f579495f6f",
+          "crop_box": [
+            61,
+            43,
+            897,
+            1057
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1014
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            860,
+            1198
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_077_4.4_output.png",
+          "page": 77,
+          "source_sha256": "1802f2dab20b6294f306089c0ff862d9855f71c83ab81da9b5a438a51c62f0ae",
+          "crop_box": [
+            62,
+            43,
+            820,
+            160
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              117
+            ]
+          ],
+          "destination_box": [
+            24,
+            1256,
+            782,
+            1373
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_078_4.4_ket_luan.png",
+          "page": 78,
+          "source_sha256": "aed16caf9f3d3f01cb4bf5381c37489454308a6bc658628c669c4bc9fa9d52dd",
+          "crop_box": [
+            62,
+            43,
+            942,
+            187
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              144
+            ]
+          ],
+          "destination_box": [
+            24,
+            1431,
+            904,
+            1575
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_079_4.4_softmax_stability.png",
+          "page": 79,
+          "source_sha256": "37e4aa4ca1e510bd0b2c3fd714e76c2cb80bacc52c65dfd19e589a77bd619c06",
+          "crop_box": [
+            62,
+            43,
+            930,
+            273
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              230
+            ]
+          ],
+          "destination_box": [
+            24,
+            1633,
+            892,
+            1863
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_080_4.4_cross_entropy_speed.png",
+          "page": 80,
+          "source_sha256": "66b3b2f0c7f54f635363549ada8f8bfa63adfa13f7d3feb7d527e6fc1f57ef46",
+          "crop_box": [
+            62,
+            43,
+            661,
+            207
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              164
+            ]
+          ],
+          "destination_box": [
+            24,
+            1921,
+            623,
+            2085
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_081_4.4_comparison.png",
+          "page": 81,
+          "source_sha256": "966bbc4a5bf42b3e36efd9af41cb9d685b140980a748d2179e557a4a3e5e250b",
+          "crop_box": [
+            62,
+            43,
+            773,
+            277
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              234
+            ]
+          ],
+          "destination_box": [
+            24,
+            2143,
+            735,
+            2377
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_082_4.4_validation_learning_curves.png",
+          "page": 82,
+          "source_sha256": "1d3b5916ffad040017ca9e8464e1c448f85a9b4044dc2cb3888b47c510722220",
+          "crop_box": [
+            41,
+            18,
+            1120,
+            1107
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              553,
+              1089
+            ]
+          ],
+          "destination_box": [
+            24,
+            2435,
+            1103,
+            3057
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_083_c4_4_5_loi_giai.png",
+          "page": 83,
+          "source_sha256": "ac964a58d97d07fbae3317404d9cf7be4a6f3d224b2507cc00a379cb9bbb920a",
+          "crop_box": [
+            61,
+            43,
+            843,
+            1018
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              975
+            ]
+          ],
+          "destination_box": [
+            1127,
+            184,
+            1909,
+            1159
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_084_4.5_output.png",
+          "page": 84,
+          "source_sha256": "ac1b1e4675be69cf8b9ac795f438aad4023e466818d568dedd4c9bb5984806a3",
+          "crop_box": [
+            62,
+            43,
+            997,
+            183
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              140
+            ]
+          ],
+          "destination_box": [
+            1127,
+            1217,
+            2062,
+            1357
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_085_4.5_exp_dynamic_range.png",
+          "page": 85,
+          "source_sha256": "c10b9ad696808391b0848f0c1da17cafae2fd176456f867d979a6db3e95e59e6",
+          "crop_box": [
+            61,
+            43,
+            763,
+            248
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              205
+            ]
+          ],
+          "destination_box": [
+            1127,
+            1415,
+            1829,
+            1620
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_086_4.5_exp_measured_boundaries_cpu.png",
+          "page": 86,
+          "source_sha256": "b5b598842df663de251745bba35bdc14f3939b44554639b56727958d6ea6004b",
+          "crop_box": [
+            61,
+            43,
+            850,
+            362
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              319
+            ]
+          ],
+          "destination_box": [
+            1127,
+            1678,
+            1916,
+            1997
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_087_4.5_comparison.png",
+          "page": 87,
+          "source_sha256": "9240c69340c7e6fab40f5d216be4da5eed301d473e1002880c044d59e854f7aa",
+          "crop_box": [
+            61,
+            43,
+            879,
+            184
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              141
+            ]
+          ],
+          "destination_box": [
+            1127,
+            2055,
+            1945,
+            2196
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_088_4.5_validation_learning_curves.png",
+          "page": 88,
+          "source_sha256": "022fff8587219167f6a15fb1b4498e86f26c5a8afb2b26b86c3ff7fc960e683e",
+          "crop_box": [
+            41,
+            18,
+            1120,
+            1107
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              553,
+              1089
+            ]
+          ],
+          "destination_box": [
+            1127,
+            2254,
+            2206,
+            2876
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_089_c4_4_6_loi_giai.png",
+          "page": 89,
+          "source_sha256": "8f3bef0d85ce0e13aaae12f6144cc55ec69e6c647a17dc0ff4db8da47015bdd8",
+          "crop_box": [
+            61,
+            43,
+            939,
+            940
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              897
+            ]
+          ],
+          "destination_box": [
+            2230,
+            184,
+            3108,
+            1081
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_090_4.6_output.png",
+          "page": 90,
+          "source_sha256": "6d1049879aaa1e821af5e56ce49c4d31d22ae48d42ca4b74caffe2acdaef6c9f",
+          "crop_box": [
+            62,
+            43,
+            943,
+            228
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              185
+            ]
+          ],
+          "destination_box": [
+            2230,
+            1139,
+            3111,
+            1324
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_091_c4_4_7_loi_giai.png",
+          "page": 91,
+          "source_sha256": "1994637e05991e2113055d71cfd757c8c608c8f7b6164812f091ab9ff06377b2",
+          "crop_box": [
+            61,
+            43,
+            929,
+            841
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              798
+            ]
+          ],
+          "destination_box": [
+            2230,
+            1382,
+            3098,
+            2180
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_092_4.7_output.png",
+          "page": 92,
+          "source_sha256": "46616e098d08634199b02cebad662c6d06256a65d59bcfd63a58d84361f593f4",
+          "crop_box": [
+            61,
+            43,
+            969,
+            201
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              158
+            ]
+          ],
+          "destination_box": [
+            2230,
+            2238,
+            3138,
+            2396
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_093_4.7_shift_detection_correction.png",
+          "page": 93,
+          "source_sha256": "20ccac737bc53de27fe189b39bd7dbcd1241fc0c2bde806bc46c2e7e5f8eb913",
+          "crop_box": [
+            63,
+            43,
+            992,
+            179
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              136
+            ]
+          ],
+          "destination_box": [
+            2230,
+            2454,
+            3159,
+            2590
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_Chuong_5_Phan_1.png",
+      "size": [
+        3339,
+        4669
+      ],
+      "columns": 3,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_094_c5_5_1_loi_giai.png",
+          "page": 94,
+          "source_sha256": "bf8cdeb41634b023fa6103dde8321c957f827897c575fc0c66b59fa05d609ada",
+          "crop_box": [
+            61,
+            43,
+            840,
+            1291
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1248
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            803,
+            1432
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_095_5.1_output.png",
+          "page": 95,
+          "source_sha256": "e798537f089627a5905d0b43e450ee83c820aef604c6a7ff030846c6947c07a3",
+          "crop_box": [
+            61,
+            43,
+            514,
+            160
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              117
+            ]
+          ],
+          "destination_box": [
+            24,
+            1490,
+            477,
+            1607
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_096_5.1_sigmoid_gradients.png",
+          "page": 96,
+          "source_sha256": "b8f511e1e67b41bba25713ec32bbbc4c16058a55962761d261a5852ae40cbea5",
+          "crop_box": [
+            61,
+            43,
+            625,
+            270
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              227
+            ]
+          ],
+          "destination_box": [
+            24,
+            1665,
+            588,
+            1892
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_097_c5_5_2_loi_giai.png",
+          "page": 97,
+          "source_sha256": "2b6d366022bd4e65249c1ba006bd21d09d1afb39589227b16493eecceb32a797",
+          "crop_box": [
+            61,
+            43,
+            896,
+            1518
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1475
+            ]
+          ],
+          "destination_box": [
+            24,
+            1950,
+            859,
+            3425
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_098_c5_5_2_loi_giai.png",
+          "page": 98,
+          "source_sha256": "67adf4ed5b50baee349a4d68f9cbacc5f87cce8d943f1a0ee6cc930fad73f702",
+          "crop_box": [
+            61,
+            43,
+            1017,
+            696
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              653
+            ]
+          ],
+          "destination_box": [
+            24,
+            3483,
+            980,
+            4136
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_099_5.2_output.png",
+          "page": 99,
+          "source_sha256": "ef7d0c185009b79f10d86376f741bc19dde33cafbe18d0df685e486a29fc75f4",
+          "crop_box": [
+            61,
+            43,
+            1002,
+            250
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              207
+            ]
+          ],
+          "destination_box": [
+            24,
+            4194,
+            965,
+            4401
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_100_5.2_ket_luan.png",
+          "page": 100,
+          "source_sha256": "f52fdc92df1fb458a7a2873b7cdb6efbec40ff5311b3af686953ea8bc40a480d",
+          "crop_box": [
+            62,
+            43,
+            981,
+            212
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              169
+            ]
+          ],
+          "destination_box": [
+            1129,
+            184,
+            2048,
+            353
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_101_5.2_comparison.png",
+          "page": 101,
+          "source_sha256": "4b3a98382b483a425220d7345a19a435ac7191fb9b6724847cf114f23fe60354",
+          "crop_box": [
+            61,
+            43,
+            897,
+            916
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              873
+            ]
+          ],
+          "destination_box": [
+            1129,
+            411,
+            1965,
+            1284
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_102_5.2_matrix_alignment_cpu.png",
+          "page": 102,
+          "source_sha256": "4ab9789b0f72eca24b816dfd07963ca457f5213b84422bdb38e3f7f9297bcf54",
+          "crop_box": [
+            63,
+            43,
+            676,
+            270
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              227
+            ]
+          ],
+          "destination_box": [
+            1129,
+            1342,
+            1742,
+            1569
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_103_5.2_equal_weights_speed.png",
+          "page": 103,
+          "source_sha256": "607ed5a4aaca4f4cca0903c1920e504eb7fa4711af7c94e479a409baea3bb544",
+          "crop_box": [
+            63,
+            43,
+            665,
+            293
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              250
+            ]
+          ],
+          "destination_box": [
+            1129,
+            1627,
+            1731,
+            1877
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_104_5.2_validation_learning_curves.png",
+          "page": 104,
+          "source_sha256": "7136f9f03a85be8fe81fc818525a9dbaad3a15b02a1d6c210f42f660b99890ac",
+          "crop_box": [
+            39,
+            18,
+            1120,
+            1107
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              554,
+              1089
+            ]
+          ],
+          "destination_box": [
+            1129,
+            1935,
+            2210,
+            2556
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_105_5.2_neurons_vs_accuracy.png",
+          "page": 105,
+          "source_sha256": "67b6d75e8601b0bdf6bb194fd0392bf13f91d11d394e34745fd4e9812c4ad96e",
+          "crop_box": [
+            43,
+            18,
+            1118,
+            1139
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1121
+            ]
+          ],
+          "destination_box": [
+            1129,
+            2614,
+            2204,
+            3302
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_106_c5_5_3_loi_giai.png",
+          "page": 106,
+          "source_sha256": "0ddbf579f3d4f2b984d01a7878c4d557e79e00d5c0326e1504e94af6a4917aad",
+          "crop_box": [
+            60,
+            43,
+            878,
+            1304
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1261
+            ]
+          ],
+          "destination_box": [
+            1129,
+            3360,
+            1947,
+            4621
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_107_5.3_output.png",
+          "page": 107,
+          "source_sha256": "992a1814c4f49335c0edff5f4d562a9b43e8c4dca26b7147544af4037f5c9a18",
+          "crop_box": [
+            61,
+            43,
+            928,
+            251
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              208
+            ]
+          ],
+          "destination_box": [
+            2234,
+            184,
+            3101,
+            392
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_108_5.3_memory_accounting.png",
+          "page": 108,
+          "source_sha256": "d4c36aa125068888b30fe7e9d2f03b6187e99a176506b4bc0b5be759bb2ea2dc",
+          "crop_box": [
+            62,
+            43,
+            871,
+            271
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              228
+            ]
+          ],
+          "destination_box": [
+            2234,
+            450,
+            3043,
+            678
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_109_5.3_computational_graph.png",
+          "page": 109,
+          "source_sha256": "fc24c7d0af999cf6b34f24a9c227b2996bc0db0e4b07933bc7f634bacdb88c75",
+          "crop_box": [
+            78,
+            18,
+            1045,
+            997
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              649,
+              979
+            ]
+          ],
+          "destination_box": [
+            2234,
+            736,
+            3201,
+            1152
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_110_c5_5_4_loi_giai.png",
+          "page": 110,
+          "source_sha256": "81159af8d0b43e5a54388cf813e6d8b49e26c02ace620e960cdd17f4d6dcb29d",
+          "crop_box": [
+            61,
+            43,
+            884,
+            1006
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              963
+            ]
+          ],
+          "destination_box": [
+            2234,
+            1210,
+            3057,
+            2173
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_111_5.4_output.png",
+          "page": 111,
+          "source_sha256": "802a77cc9a915da0d2c2e7712d692b72f61dd2e5b2dea19a0f25218613666d62",
+          "crop_box": [
+            62,
+            43,
+            927,
+            228
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              185
+            ]
+          ],
+          "destination_box": [
+            2234,
+            2231,
+            3099,
+            2416
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_112_c5_5_5_loi_giai.png",
+          "page": 112,
+          "source_sha256": "1a51afaa10a2f81c8e71fe746b890bc1f0ab72cd0c7c02682bfd89b6239fa3e9",
+          "crop_box": [
+            61,
+            43,
+            830,
+            931
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              888
+            ]
+          ],
+          "destination_box": [
+            2234,
+            2474,
+            3003,
+            3362
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_113_5.5_output.png",
+          "page": 113,
+          "source_sha256": "6abfcc8e2d15f6f4d33316b000aedeadcd6982f00b7ac2da3b63c0041d0eadf3",
+          "crop_box": [
+            61,
+            43,
+            987,
+            183
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              140
+            ]
+          ],
+          "destination_box": [
+            2234,
+            3420,
+            3160,
+            3560
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_114_5.5_early_stopping.png",
+          "page": 114,
+          "source_sha256": "e57efc6f6f0b14189780a067376bee295ba264778e65e40506bef52fb604098a",
+          "crop_box": [
+            62,
+            43,
+            841,
+            225
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              182
+            ]
+          ],
+          "destination_box": [
+            2234,
+            3618,
+            3013,
+            3800
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_Chuong_5_Phan_2.png",
+      "size": [
+        3333,
+        4452
+      ],
+      "columns": 3,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_115_c5_5_6_loi_giai.png",
+          "page": 115,
+          "source_sha256": "d40dd5b074fd5e267cd742e4a8052e5e7653fe671c98621fb39d69171c77f463",
+          "crop_box": [
+            61,
+            43,
+            888,
+            1476
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1433
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            851,
+            1617
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_116_5.6_output.png",
+          "page": 116,
+          "source_sha256": "730991172235205331e91a5a91f79969dad69bedb2acb66eea231b684f9c9970",
+          "crop_box": [
+            62,
+            43,
+            992,
+            228
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              185
+            ]
+          ],
+          "destination_box": [
+            24,
+            1675,
+            954,
+            1860
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_117_5.6_ket_luan.png",
+          "page": 117,
+          "source_sha256": "8dbd1a1141e47540bdbb04d518b8e6c04c4f9f3ad690d133b01840439f5d0536",
+          "crop_box": [
+            62,
+            43,
+            1012,
+            211
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              168
+            ]
+          ],
+          "destination_box": [
+            24,
+            1918,
+            974,
+            2086
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_118_5.6_comparison.png",
+          "page": 118,
+          "source_sha256": "90af44ad2d857128b166140929bec576ad04d6f373b69ec23d66e1113583e6f5",
+          "crop_box": [
+            62,
+            43,
+            887,
+            323
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              280
+            ]
+          ],
+          "destination_box": [
+            24,
+            2144,
+            849,
+            2424
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_119_5.6_longer_training.png",
+          "page": 119,
+          "source_sha256": "2adc68d6f0f7e56e71ccc4f603d92462f19d302f2c1c7055fff4f22909293d78",
+          "crop_box": [
+            62,
+            43,
+            580,
+            230
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              187
+            ]
+          ],
+          "destination_box": [
+            24,
+            2482,
+            542,
+            2669
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_120_5.6_validation_learning_curves.png",
+          "page": 120,
+          "source_sha256": "8d7d9295aa662ca449a10cc0c717cb2cde8bac7dd2b3edb0b442a2f3a482212d",
+          "crop_box": [
+            41,
+            18,
+            1120,
+            1107
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              554,
+              1089
+            ]
+          ],
+          "destination_box": [
+            24,
+            2727,
+            1103,
+            3348
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_121_5.6_activation_variance_no_dropout_layer1.png",
+          "page": 121,
+          "source_sha256": "3e36da0c2f1bd2d36096e3a9bc7fa41fc59fa42ec59104ba2c45275e5650e135",
+          "crop_box": [
+            43,
+            18,
+            1118,
+            1143
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1125
+            ]
+          ],
+          "destination_box": [
+            24,
+            3406,
+            1099,
+            4098
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_122_5.6_activation_variance_no_dropout_layer2.png",
+          "page": 122,
+          "source_sha256": "50bf510f36f4ebbd48cdb04d13344584892c2a33afd700b43b62f43040fc59b0",
+          "crop_box": [
+            43,
+            18,
+            1117,
+            1143
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1125
+            ]
+          ],
+          "destination_box": [
+            1127,
+            184,
+            2201,
+            876
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_123_5.6_activation_variance_dropout_02_05_layer1.png",
+          "page": 123,
+          "source_sha256": "b525a2de38a7df04012bfffddb8d6868406b1595cf9842138d69426c49f64c3a",
+          "crop_box": [
+            43,
+            18,
+            1117,
+            1143
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1125
+            ]
+          ],
+          "destination_box": [
+            1127,
+            934,
+            2201,
+            1626
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_124_5.6_activation_variance_dropout_02_05_layer2.png",
+          "page": 124,
+          "source_sha256": "2b4796a7b6184b99dc8178595b46f1b1b4e1f02f6f3379c82fd6152dc325f575",
+          "crop_box": [
+            43,
+            18,
+            1118,
+            1143
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1125
+            ]
+          ],
+          "destination_box": [
+            1127,
+            1684,
+            2202,
+            2376
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_125_5.6_activation_variance_dropout_05_02_layer1.png",
+          "page": 125,
+          "source_sha256": "298c062cd48f99c987e5bc77c6e44b4df265c65a359e93ad8d3254ea824ee100",
+          "crop_box": [
+            43,
+            18,
+            1117,
+            1143
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1125
+            ]
+          ],
+          "destination_box": [
+            1127,
+            2434,
+            2201,
+            3126
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_126_5.6_activation_variance_dropout_05_02_layer2.png",
+          "page": 126,
+          "source_sha256": "2d107471f8ab35b6f8096df8acc2c01373e32858e47cd1f9f29e9d10aa1cc620",
+          "crop_box": [
+            43,
+            18,
+            1118,
+            1143
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              519,
+              1125
+            ]
+          ],
+          "destination_box": [
+            1127,
+            3184,
+            2202,
+            3876
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_127_c5_5_7_loi_giai.png",
+          "page": 127,
+          "source_sha256": "405be389c08cd3073593b96547fb477c7734ca39d84fc8de1032bfcb1317e8a7",
+          "crop_box": [
+            61,
+            43,
+            922,
+            1204
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1161
+            ]
+          ],
+          "destination_box": [
+            2230,
+            184,
+            3091,
+            1345
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_128_5.7_output.png",
+          "page": 128,
+          "source_sha256": "e4025da12733153c8446cb85018623c86703d302fd6bc11527821bf60008feb8",
+          "crop_box": [
+            62,
+            43,
+            1010,
+            252
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              209
+            ]
+          ],
+          "destination_box": [
+            2230,
+            1403,
+            3178,
+            1612
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_129_5.7_ket_luan.png",
+          "page": 129,
+          "source_sha256": "39b5f6a5cc793f4c1969112b7ddd514256fe874d312317ab4ec1b952c49304ee",
+          "crop_box": [
+            61,
+            43,
+            1010,
+            187
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              144
+            ]
+          ],
+          "destination_box": [
+            2230,
+            1670,
+            3179,
+            1814
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_130_5.7_kfold_scores.png",
+          "page": 130,
+          "source_sha256": "f3bdbbc675a5ec892f23de86ccc7da383a61f8aa2a9d78f1882d5cf65ab54004",
+          "crop_box": [
+            62,
+            43,
+            568,
+            740
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              697
+            ]
+          ],
+          "destination_box": [
+            2230,
+            1872,
+            2736,
+            2569
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_131_5.7_model_selection.png",
+          "page": 131,
+          "source_sha256": "ac5ea784a5cd82860948cc6d0b28d86fceb1818a0b5748e7b7b109743807161a",
+          "crop_box": [
+            62,
+            43,
+            825,
+            409
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              366
+            ]
+          ],
+          "destination_box": [
+            2230,
+            2627,
+            2993,
+            2993
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_132_5.7_data_summary.png",
+          "page": 132,
+          "source_sha256": "1f269b07a12be063019ef370a0f7e95af999ca2989526a1f9887d71a41ab5516",
+          "crop_box": [
+            63,
+            43,
+            695,
+            179
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              136
+            ]
+          ],
+          "destination_box": [
+            2230,
+            3051,
+            2862,
+            3187
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_133_5.7_without_standardization.png",
+          "page": 133,
+          "source_sha256": "b26239a563e501d3d9e629c3188f1a5a834eedba5cfd5a822bbf011109d91986",
+          "crop_box": [
+            63,
+            43,
+            710,
+            183
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              140
+            ]
+          ],
+          "destination_box": [
+            2230,
+            3245,
+            2877,
+            3385
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_134_5.7_submission_preview.png",
+          "page": 134,
+          "source_sha256": "de624a5f33a3db7fcc956e12f6cd43e83db3522ed90f410b4cc0f67ff3e2e463",
+          "crop_box": [
+            62,
+            43,
+            650,
+            385
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              342
+            ]
+          ],
+          "destination_box": [
+            2230,
+            3443,
+            2818,
+            3785
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_135_5.7_kfold_model_comparison.png",
+          "page": 135,
+          "source_sha256": "b9556944c71b897db987c9f1782d9356221020d8784ab1fda1d3ec2de303a191",
+          "crop_box": [
+            50,
+            18,
+            1122,
+            1076
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              86
+            ],
+            [
+              583,
+              1058
+            ]
+          ],
+          "destination_box": [
+            2230,
+            3843,
+            3302,
+            4404
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    },
+    {
+      "file": "Le_Son_Truong_On_tap_Loss_Backprop_MLP.png",
+      "size": [
+        956,
+        2230
+      ],
+      "columns": 1,
+      "source_pages": [
+        {
+          "source": "Le_Son_Truong_136_on_tap.png",
+          "page": 136,
+          "source_sha256": "82e43a42d1023c0eb9fdd96f44b828482827d50e2fdc2c29f9b1299cb2a0f6f4",
+          "crop_box": [
+            61,
+            43,
+            888,
+            1496
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              1453
+            ]
+          ],
+          "destination_box": [
+            24,
+            184,
+            851,
+            1637
+          ]
+        },
+        {
+          "source": "Le_Son_Truong_137_on_tap.png",
+          "page": 137,
+          "source_sha256": "cd991f3f20e33d02914bf6cef41999b39d04f0a422edb5fad5b564d52619afce",
+          "crop_box": [
+            61,
+            43,
+            969,
+            530
+          ],
+          "retained_row_spans": [
+            [
+              0,
+              487
+            ]
+          ],
+          "destination_box": [
+            24,
+            1695,
+            932,
+            2182
+          ]
+        }
+      ],
+      "pixel_verification": "passed"
+    }
+  ]
+}

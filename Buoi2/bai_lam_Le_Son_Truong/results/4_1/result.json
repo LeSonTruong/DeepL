@@ -1,0 +1,11 @@
+{
+  "section": "4.1",
+  "tables": [
+    "results\\4_1\\hessian.csv",
+    "results\\4_1\\one_hot_covariance.csv"
+  ],
+  "figures": [],
+  "notes": [
+    "logsumexp(x+3)-logsumexp(x)=3.0; softmax invariant=True"
+  ]
+}

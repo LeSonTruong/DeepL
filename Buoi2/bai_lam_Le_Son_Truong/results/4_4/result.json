@@ -1,0 +1,15 @@
+{
+  "section": "4.4",
+  "tables": [
+    "results\\4_4\\softmax_stability.csv",
+    "results\\4_4\\cross_entropy_speed.csv",
+    "results\\4_4\\comparison.csv",
+    "results\\4_4\\history.csv"
+  ],
+  "figures": [
+    "results\\4_4\\validation_learning_curves.png"
+  ],
+  "notes": [
+    "Dense one-hot CE=2.820356; fused/index CE=2.820356; negative sign is required."
+  ]
+}

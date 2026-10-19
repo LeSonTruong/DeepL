@@ -1,0 +1,10 @@
+{
+  "section": "5.5",
+  "tables": [
+    "results\\5_5\\early_stopping.csv"
+  ],
+  "figures": [],
+  "notes": [
+    "Checkpoint is selected from a measured curve, not assumed to outperform final training. The curve is softmax from section 4.5, used only to demonstrate the criterion."
+  ]
+}

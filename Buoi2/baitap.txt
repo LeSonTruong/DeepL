@@ -1,0 +1,7 @@
+Đọc tài liệu
+
+Dive into Deep Learning — Dive into Deep Learning 1.0.3 documentation("https://d2l.ai/")
+
+hoàn thành bài tập của các mục từ 1 đến 5: chụp kết quả làm vào drive- ghi rõ tên file là tên của mình, gửi link chia sẻ tại đây
+
+chuẩn bị nội dung: Loss, backpropagation, tối ưu hóa và quy trình huấn luyện MLP

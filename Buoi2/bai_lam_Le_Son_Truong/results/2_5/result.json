@@ -1,0 +1,15 @@
+{
+  "section": "2.5",
+  "tables": [
+    "results\\2_5\\chain_rule.csv"
+  ],
+  "figures": [
+    "results\\2_5\\sin_autograd.png"
+  ],
+  "notes": [
+    "Expected second backward error: Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward.",
+    "Repeated backward with retain_graph accumulates grad: 8.0",
+    "Vector output=[512.0, 1024.0, 1536.0], VJP for sum=[512.0, 512.0, 512.0]",
+    "Dependency graph: x -> x^2 -> log(x^2); x -> sin(x); multiply -> +1/x -> f."
+  ]
+}

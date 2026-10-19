@@ -1,0 +1,20 @@
+{
+  "section": "5.6",
+  "tables": [
+    "results\\5_6\\comparison.csv",
+    "results\\5_6\\history.csv",
+    "results\\5_6\\longer_training.csv"
+  ],
+  "figures": [
+    "results\\5_6\\validation_learning_curves.png",
+    "results\\5_6\\activation_variance_no_dropout_layer1.png",
+    "results\\5_6\\activation_variance_no_dropout_layer2.png",
+    "results\\5_6\\activation_variance_dropout_02_05_layer1.png",
+    "results\\5_6\\activation_variance_dropout_02_05_layer2.png",
+    "results\\5_6\\activation_variance_dropout_05_02_layer1.png",
+    "results\\5_6\\activation_variance_dropout_05_02_layer2.png"
+  ],
+  "notes": [
+    "Noise/dropout can help or hurt; compare measured validation scores, no promise Gaussian noise wins. Eval and stochastic train variance are measured in separate forwards on 1024 fixed images. RNG and module modes are restored, so monitoring does not alter later training masks. Empirical variance across samples and units differs from conditional mask variance p/(1-p)*h^2."
+  ]
+}

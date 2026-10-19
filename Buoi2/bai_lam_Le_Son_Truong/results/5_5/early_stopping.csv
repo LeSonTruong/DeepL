@@ -1,0 +1,2 @@
+﻿selected_epoch,selected_val_loss,selected_val_accuracy,final_epoch,final_val_loss,final_val_accuracy
+18,0.4613169799804688,0.8367,20,0.4668169311523437,0.8314

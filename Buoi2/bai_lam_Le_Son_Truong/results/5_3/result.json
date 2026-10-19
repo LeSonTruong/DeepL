@@ -1,0 +1,14 @@
+{
+  "section": "5.3",
+  "tables": [
+    "results\\5_3\\memory_accounting.csv"
+  ],
+  "figures": [
+    "results\\5_3\\computational_graph.png"
+  ],
+  "notes": [
+    "X shape=(5, 3), gradient shape=(5, 3), b1 gradient shape=(4,)",
+    "Graph: X,W1,b1 -> Z -> ReLU -> H; H,W2 -> O; O,Y -> loss; weight matrices -> L2 -> objective.",
+    "Second-derivative Hessian-vector product=[6.0, 12.0]"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "section": "3.1",
+  "tables": [
+    "results\\3_1\\analytic_regression.csv"
+  ],
+  "figures": [],
+  "notes": [
+    "Squared-loss minimizer mean=26.5, absolute-loss minimizers interval [2,3]."
+  ]
+}

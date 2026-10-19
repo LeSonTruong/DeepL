@@ -1,0 +1,16 @@
+{
+  "section": "3.4",
+  "tables": [
+    "results\\3_4\\initialization.csv",
+    "results\\3_4\\learning_rates.csv",
+    "results\\3_4\\robust_losses.csv"
+  ],
+  "figures": [
+    "results\\3_4\\learning_rates.png"
+  ],
+  "notes": [
+    "Ohm fitted R=7.000000, true R=7",
+    "Planck fitted T=4500.000 K, true 4500 K; synthetic noiseless spectrum",
+    "Initialization: std=0.01 means variance=0.0001. Literal variance=0.01 in the exercise is tested separately with std=0.1; variance=1000 uses std=sqrt(1000)."
+  ]
+}

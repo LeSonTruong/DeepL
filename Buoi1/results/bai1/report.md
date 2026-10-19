@@ -14,15 +14,15 @@ MLP dùng sigmoid ở đầu ra khi phân loại nhị phân và softmax khi nhi
 
 | Cấu hình | Tầng ẩn | Activation | L2 alpha | Tham số | Val loss | Test loss | Test accuracy | Test Macro-F1 | Giây | Epoch chọn |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| width_8 | 8x8 | relu | 0 | 105 | 0.1992 ± 0.0403 | 0.1664 ± 0.0225 | 0.9347 ± 0.0048 | 0.9347 ± 0.0048 | 1.03 ± 0.00 | 200.0 ± 0.0 |
-| width_32 | 32x32 | relu | 0 | 1185 | 0.1516 ± 0.0043 | 0.1217 ± 0.0031 | 0.9500 ± 0.0000 | 0.9500 ± 0.0000 | 1.06 ± 0.01 | 178.3 ± 29.8 |
-| width_64 | 64x64 | relu | 0 | 4417 | 0.1506 ± 0.0022 | 0.1224 ± 0.0011 | 0.9486 ± 0.0024 | 0.9486 ± 0.0024 | 1.17 ± 0.01 | 109.0 ± 36.3 |
-| width_128 | 128x128 | relu | 0 | 17025 | 0.1499 ± 0.0010 | 0.1210 ± 0.0011 | 0.9472 ± 0.0024 | 0.9472 ± 0.0024 | 1.62 ± 0.02 | 75.3 ± 14.0 |
+| width_8 | 8x8 | relu | 0 | 105 | 0.1992 ± 0.0403 | 0.1664 ± 0.0225 | 0.9347 ± 0.0048 | 0.9347 ± 0.0048 | 1.19 ± 0.01 | 200.0 ± 0.0 |
+| width_32 | 32x32 | relu | 0 | 1185 | 0.1516 ± 0.0043 | 0.1217 ± 0.0031 | 0.9500 ± 0.0000 | 0.9500 ± 0.0000 | 1.21 ± 0.01 | 178.3 ± 29.8 |
+| width_64 | 64x64 | relu | 0 | 4417 | 0.1506 ± 0.0022 | 0.1224 ± 0.0011 | 0.9486 ± 0.0024 | 0.9486 ± 0.0024 | 1.34 ± 0.00 | 109.0 ± 36.3 |
+| width_128 | 128x128 | relu | 0 | 17025 | 0.1499 ± 0.0010 | 0.1210 ± 0.0011 | 0.9472 ± 0.0024 | 0.9472 ± 0.0024 | 1.82 ± 0.02 | 75.3 ± 14.0 |
 
 ## Nhận xét ngắn
 
 - Theo validation loss trung bình, **width_128** tốt nhất (0.1499); checkpoint của cấu hình này có test accuracy 94.72%, Macro-F1 0.9472. Dùng validation để chọn cấu hình; test chỉ dùng báo cáo đánh giá cuối.
-- Từ 8 lên 128 neuron mỗi tầng, số tham số tăng từ 105 lên 17025 (162.1 lần); test accuracy thay đổi từ 93.47% thành 94.72%, thời gian từ 1.03s thành 1.62s. Nhiều neuron tăng khả năng biểu diễn và chi phí; chất lượng còn phụ thuộc nhiễu và tối ưu, không bảo đảm tăng đều theo độ rộng.
+- Từ 8 lên 128 neuron mỗi tầng, số tham số tăng từ 105 lên 17025 (162.1 lần); test accuracy thay đổi từ 93.47% thành 94.72%, thời gian từ 1.19s thành 1.82s. Nhiều neuron tăng khả năng biểu diễn và chi phí; chất lượng còn phụ thuộc nhiễu và tối ưu, không bảo đảm tăng đều theo độ rộng.
 - Chưa thấy dấu hiệu overfitting rõ theo tiêu chí: train loss cuối giảm thêm >0.005 trong khi val loss tăng >0.02 so với checkpoint tốt nhất. Khoảng cách train/validation nhỏ không đủ để khẳng định không overfit.
 - Không cấu hình nào có cả accuracy train/validation cuối dưới 90%. Không có bằng chứng underfitting rõ theo ngưỡng tham khảo này; hãy đối chiếu learning curve thay vì chỉ nhìn test accuracy.
 - Các seed chỉ phản ánh biến động khởi tạo và thứ tự batch; chưa đo độ bất định giữa nhiều lần chia dữ liệu. Các ngưỡng chẩn đoán trên là quy ước tham khảo, không phải kiểm định thống kê.

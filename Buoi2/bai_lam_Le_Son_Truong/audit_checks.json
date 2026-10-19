@@ -1,0 +1,16 @@
+{
+  "source": {
+    "pdf_sha256": "b3129f44c4a26b534176bb0f83d85e1ed26a6cdf93ebebacb20104eab2d6bc00",
+    "exercise_groups": 28,
+    "main_questions": 162
+  },
+  "math": "CE Hessian/covariance, tangent, Huffman, Hoeffding and MLP backward verified",
+  "dropout_monitoring": "Independent eval hooks agree at both layers; RNG and train/eval modes preserved",
+  "results": "CSV/history consistency, initialization variance, weight-decay data, CV aggregates, submission IDs and dataset SHA-256 verified",
+  "scope": "Automated identities and data checks plus manual question review; not a proof that every empirical conclusion generalizes.",
+  "pending": [
+    "5.2.7 GPU timing with CUDA",
+    "5.7.1 real Kaggle submission/score",
+    "Drive upload by user"
+  ]
+}

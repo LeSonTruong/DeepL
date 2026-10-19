@@ -1,0 +1,13 @@
+{
+  "section": "3.5",
+  "tables": [
+    "results\\3_5\\data_size.csv"
+  ],
+  "figures": [
+    "results\\3_5\\parameter_error_vs_data.png"
+  ],
+  "notes": [
+    "Framework Huber final loss=2.2865465; weight.grad=[[-0.20225602388381958, 0.09151758253574371]]",
+    "Sample-size plot includes framework SGD with the book's LR=0.03 and 3 epochs, plus exact least squares as a separate reference. Ten data seeds per size. Larger n also means more SGD updates at fixed epochs."
+  ]
+}

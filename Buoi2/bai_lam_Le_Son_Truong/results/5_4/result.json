@@ -1,0 +1,9 @@
+{
+  "section": "5.4",
+  "tables": [],
+  "figures": [],
+  "notes": [
+    "Eigenvalues A=[1.0, 1.0], B=[1.0, 1.0], AB=[10001.999900019995, 9.998000499855664e-05]",
+    "Individual eigenvalues do not control a non-normal product; singular-value bounds are the safe general gradient bounds."
+  ]
+}

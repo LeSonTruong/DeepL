@@ -1,0 +1,15 @@
+{
+  "section": "4.2",
+  "tables": [
+    "results\\4_2\\data_iterator_speed.csv",
+    "results\\4_2\\batch_fetch_optimization.csv"
+  ],
+  "figures": [
+    "results\\4_2\\fashion_examples.png"
+  ],
+  "notes": [
+    "Fashion-MNIST shapes: train=(60000, 784), labels=(60000,), test/validation=(10000, 784)",
+    "         374200 function calls (373728 primitive calls) in 0.219 seconds\n\n   Ordered by: cumulative time\n   List reduced from 66 to 12 due to restriction <12>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n      236    0.000    0.000    0.218    0.001 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\dataloader.py:720(__next__)\n      236    0.011    0.000    0.215    0.001 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\dataloader.py:783(_next_data)\n      235    0.007    0.000    0.203    0.001 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\_utils\\fetch.py:49(fetch)\n    60000    0.037    0.000    0.143    0.000 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\dataset.py:205(__getitem__)\n   180000    0.106    0.000    0.106    0.000 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\dataset.py:206(<genexpr>)\n      235    0.000    0.000    0.053    0.000 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\_utils\\collate.py:340(default_collate)\n  705/235    0.003    0.000    0.053    0.000 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\_utils\\collate.py:118(collate)\n      470    0.001    0.000    0.038    0.000 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\_utils\\collate.py:246(collate_tensor_fn)\n      470    0.037    0.000    0.037    0.000 {built-in method torch.stack}\n      235    0.003    0.000    0.012    0.000 {built-in method builtins.all}\n    60000    0.006    0.000    0.009    0.000 C:\\Users\\LeSonTruong\\Documents\\GitHub\\DeepL\\Buoi1\\Buoi1_PyTorch\\.venv\\Lib\\site-packages\\torch\\utils\\data\\_utils\\collate.py:207(<genexpr>)\n    60001    0.003    0.000    0.003    0.000 {built-in method builtins.len}\n\n\n",
+    "API datasets include MNIST, FashionMNIST, CIFAR10/100, ImageFolder, SVHN (torchvision docs). Here IDX is read directly to avoid torch/torchvision ABI mismatch; no data substitution."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "section": "2.3",
+  "tables": [
+    "results\\2_3\\shapes.csv",
+    "results\\2_3\\row_normalization.csv",
+    "results\\2_3\\original_chain_cost.csv",
+    "results\\2_3\\chain_benchmark.csv",
+    "results\\2_3\\layout_benchmark.csv"
+  ],
+  "figures": [],
+  "notes": [
+    "Expected broadcasting error: The size of tensor a (4) must match the size of tensor b (5) at non-singleton dimension 1",
+    "len(X)=2; norm=65.757126; flattened norm=65.757126",
+    "Stack dim=2: (100, 200, 3); recovered B verified"
+  ]
+}

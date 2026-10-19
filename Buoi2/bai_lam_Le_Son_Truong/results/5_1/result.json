@@ -1,0 +1,10 @@
+{
+  "section": "5.1",
+  "tables": [
+    "results\\5_1\\sigmoid_gradients.csv"
+  ],
+  "figures": [],
+  "notes": [
+    "tanh(x)+1=2 sigmoid(2x) verified numerically."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "section": "2.2",
+  "tables": [
+    "results\\2_2\\abalone_head.csv",
+    "results\\2_2\\abalone_schema.csv",
+    "results\\2_2\\named_selection.csv",
+    "results\\2_2\\memory_measurements.csv"
+  ],
+  "figures": [],
+  "notes": [
+    "Abalone: (4177, 9), missing cells=0; NumPy/Pillow round-trips verified."
+  ]
+}

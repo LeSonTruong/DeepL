@@ -1,0 +1,2 @@
+﻿method,samples,seconds,samples_per_second
+"tensor split views, already in RAM",60000,0.0004386999971757177,136767723.6979044

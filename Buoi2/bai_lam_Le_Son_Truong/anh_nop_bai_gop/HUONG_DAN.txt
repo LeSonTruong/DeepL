@@ -1,0 +1,16 @@
+﻿BỘ ẢNH GỘP NỘP BÀI — LÊ SƠN TRƯỜNG
+
+Đã gộp 137 trang thành 10 ảnh:
+- Chương 1: 1 ảnh (kèm giới thiệu).
+- Chương 2, 3, 4, 5: mỗi chương 2 ảnh.
+- Ôn tập Loss, backpropagation, tối ưu hóa và MLP: 1 ảnh.
+
+Upload các file .png trong thư mục này lên Drive; không cần upload lại 137 ảnh lẻ.
+Ảnh dài: mở ảnh rồi phóng to để đọc, từ trên xuống trong cột trái,
+sau đó sang cột tiếp theo bên phải. Xem Phần 1 trước Phần 2.
+Nội dung giữ nguyên độ phân giải, chỉ cắt khoảng trắng và thay chân trang lặp
+bằng nhãn số trang gốc. manifest.json đối chiếu từng trang và kết quả kiểm tra pixel.
+Bản PDF đầy đủ vẫn ở ../Le_Son_Truong_Buoi2.pdf nếu cần cách đọc theo trang.
+
+Các phần cần tài khoản cá nhân (điểm Kaggle), số đo GPU và upload Drive
+vẫn theo ghi chú trong bài. Bộ ảnh gộp không thêm kết quả chưa thực hiện.

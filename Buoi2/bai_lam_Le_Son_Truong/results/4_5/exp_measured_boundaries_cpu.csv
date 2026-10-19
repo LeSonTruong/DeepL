@@ -1,0 +1,5 @@
+﻿dtype,smallest_representable_input_with_nonzero_exp,largest_representable_input_with_finite_exp,exp_at_previous_input,exp_at_next_input
+torch.float64,-745.1332191019411,709.782712893384,0.0,overflow
+torch.float32,-103.97207641601562,88.72283172607422,0.0,overflow
+torch.bfloat16,-92.5,88.5,0.0,overflow
+torch.float16,-17.328125,11.0859375,0.0,overflow
