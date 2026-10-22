@@ -1,0 +1,44 @@
+[
+  {
+    "name": "baseline",
+    "channels": 16,
+    "kernel_size": 3,
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  {
+    "name": "kernel5",
+    "channels": 16,
+    "kernel_size": 5,
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  {
+    "name": "channels8",
+    "channels": 8,
+    "kernel_size": 3,
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  {
+    "name": "channels32",
+    "channels": 32,
+    "kernel_size": 3,
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  {
+    "name": "batchnorm",
+    "channels": 16,
+    "kernel_size": 3,
+    "batchnorm": true,
+    "dropout": 0.0
+  },
+  {
+    "name": "dropout03",
+    "channels": 16,
+    "kernel_size": 3,
+    "batchnorm": false,
+    "dropout": 0.3
+  }
+]

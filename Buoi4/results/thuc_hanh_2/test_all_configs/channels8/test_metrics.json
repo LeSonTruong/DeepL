@@ -1,0 +1,13 @@
+{
+  "model": "channels8",
+  "epoch": 5,
+  "validation_accuracy": 0.8366666666666667,
+  "validation_loss": 0.4649812467892965,
+  "test_size": 10000,
+  "test_loss": 0.5094974033355713,
+  "test_accuracy": 0.8131,
+  "correct": 8131,
+  "incorrect": 1869,
+  "selected_by_validation": false,
+  "checkpoint": "channels8_best.pt"
+}

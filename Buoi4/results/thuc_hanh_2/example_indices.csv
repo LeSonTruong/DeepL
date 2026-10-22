@@ -1,0 +1,11 @@
+﻿test_index,true,predicted,correct
+0,9,9,True
+1,2,2,True
+2,1,1,True
+3,1,1,True
+4,6,6,True
+12,7,5,False
+17,4,6,False
+23,9,5,False
+25,4,6,False
+29,3,6,False

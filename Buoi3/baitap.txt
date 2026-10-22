@@ -1,0 +1,30 @@
+Thực hành 1: Xây dựng Training Loop
+Mục tiêu: Hoàn thiện quy trình huấn luyện và đánh giá mô hình MLP trên tập
+con FashionMNIST.
+Yêu cầu:
+• Sử dụng file gợi ý bai02_class_training_loop.py.
+• Xây dựng vòng lặp huấn luyện đầy đủ: zero_grad → forward → loss →
+backward → optimizer.step.
+• In thiết bị sử dụng (CPU/GPU), tổng số tham số, train loss và validation
+accuracy sau mỗi epoch.
+• Thử ba learning rate: 0.01; 0.001; 0.0001, giữ nguyên các cấu hình khác; so
+sánh tốc độ hội tụ và kết quả.
+• Sử dụng đúng model.train() khi huấn luyện và model.eval() khi đánh giá.
+Sản phẩm nộp: Mã nguồn Python chạy được; kết quả huấn luyện (device, số
+tham số, train loss và validation accuracy mỗi epoch); bảng so sánh 3 learning
+rate (0.01; 0.001; 0.0001) và nhận xét ngắn về tốc độ hội tụ.
+
+Thực hành 2: So sánh các phương pháp tối ưu
+Mục tiêu: Đánh giá ảnh hưởng của optimizer đến quá trình huấn
+luyện MLP trên FashionMNIST.
+Yêu cầu theo mức độ:
+• Cơ bản: Huấn luyện cùng một kiến trúc MLP bằng SGD và
+Adam; sử dụng cùng dữ liệu, số epoch và báo cáo learning
+rate.
+• Khá: Vẽ biểu đồ train loss và validation loss theo epoch cho
+từng optimizer.
+• Nâng cao: Cài đặt Early Stopping khi validation loss không cải
+thiện sau một số epoch liên tiếp.
+Sản phẩm nộp: Mã nguồn chạy được, bảng so sánh cấu hình và kết quả, biểu đồ
+learning curve, nhận xét ưu/nhược điểm của SGD và Adam, nguyên nhân lỗi và
+hướng cải thiện.

@@ -1,0 +1,44 @@
+{
+  "title": "Thực hành 2 — SGD / Momentum / Adam (5 epoch)",
+  "author": "Lê Sơn Trường",
+  "device": "cpu",
+  "torch": "2.14.1+cpu",
+  "seed": 42,
+  "torch_threads": 2,
+  "configs": [
+    {
+      "name": "sgd",
+      "optimizer": "sgd",
+      "lr": 0.05,
+      "hidden": 128,
+      "momentum": 0.0
+    },
+    {
+      "name": "momentum",
+      "optimizer": "sgd",
+      "lr": 0.03,
+      "hidden": 128,
+      "momentum": 0.9
+    },
+    {
+      "name": "adam",
+      "optimizer": "adam",
+      "lr": 0.001,
+      "hidden": 128,
+      "momentum": 0.0
+    }
+  ],
+  "preprocessing": "float32 /255, no other normalization",
+  "validation": "first N samples of official test split; not independent test after comparison",
+  "initial_state_sha256": {
+    "sgd": "c11fb869e887485538ec5d3d88c18112f2965fa4da79d7e8600a71c4588dfd42",
+    "momentum": "c11fb869e887485538ec5d3d88c18112f2965fa4da79d7e8600a71c4588dfd42",
+    "adam": "c11fb869e887485538ec5d3d88c18112f2965fa4da79d7e8600a71c4588dfd42"
+  },
+  "first_batch_sha256": {
+    "sgd": "22ae2a2e37df148386ef3d9abc06c2c552c6c0f73f4243d7c225dced3cc67450",
+    "momentum": "22ae2a2e37df148386ef3d9abc06c2c552c6c0f73f4243d7c225dced3cc67450",
+    "adam": "22ae2a2e37df148386ef3d9abc06c2c552c6c0f73f4243d7c225dced3cc67450"
+  },
+  "selection": "final epoch, no checkpoint selection"
+}

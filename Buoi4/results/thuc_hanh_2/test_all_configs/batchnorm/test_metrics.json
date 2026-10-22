@@ -1,0 +1,13 @@
+{
+  "model": "batchnorm",
+  "epoch": 4,
+  "validation_accuracy": 0.8858333333333334,
+  "validation_loss": 0.329667729139328,
+  "test_size": 10000,
+  "test_loss": 0.3761565640449524,
+  "test_accuracy": 0.8644,
+  "correct": 8644,
+  "incorrect": 1356,
+  "selected_by_validation": true,
+  "checkpoint": "batchnorm_best.pt"
+}

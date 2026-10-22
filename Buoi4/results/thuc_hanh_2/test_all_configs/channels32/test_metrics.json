@@ -1,0 +1,13 @@
+{
+  "model": "channels32",
+  "epoch": 3,
+  "validation_accuracy": 0.8658333333333333,
+  "validation_loss": 0.41297051548957825,
+  "test_size": 10000,
+  "test_loss": 0.44557318410873414,
+  "test_accuracy": 0.8404,
+  "correct": 8404,
+  "incorrect": 1596,
+  "selected_by_validation": false,
+  "checkpoint": "channels32_best.pt"
+}

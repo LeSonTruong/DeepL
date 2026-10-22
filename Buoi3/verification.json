@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "configurations_checked": [
+    "bai1_learning_rate/adam_lr_0.01",
+    "bai1_learning_rate/adam_lr_0.001",
+    "bai1_learning_rate/adam_lr_0.0001",
+    "bai2_optimizer/sgd",
+    "bai2_optimizer/momentum",
+    "bai2_optimizer/adam",
+    "bai2_early_stopping/sgd",
+    "bai2_early_stopping/momentum",
+    "bai2_early_stopping/adam"
+  ],
+  "executed_notebook_code_cells": {
+    "bai02_class_training_loop": 6,
+    "bai02_homework_optimizer_compare": 7
+  },
+  "checks": [
+    "Stable CE and analytic gradient",
+    "Sample-weighted evaluation with uneven last batch",
+    "No gradient in evaluation",
+    "Early stopping trigger, reset, checkpoint copy and restore",
+    "Dataset SHA256, raw IDX pixels/labels and range(N) split",
+    "Exact assignment settings and fair initialization/batch",
+    "History/summary selection, independent accuracy/F1/confusion",
+    "All saved checkpoints reproduce every validation prediction and loss",
+    "Early stopping preserves baseline trajectory",
+    "Executed notebooks contain images and no errors",
+    "Every epoch log includes device, parameters, train loss and validation accuracy",
+    "Legacy history exports without metadata columns; measurements are preserved"
+  ]
+}

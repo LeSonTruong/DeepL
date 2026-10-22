@@ -1,0 +1,13 @@
+{
+  "model": "dropout03",
+  "epoch": 5,
+  "validation_accuracy": 0.8375,
+  "validation_loss": 0.44284664233525595,
+  "test_size": 10000,
+  "test_loss": 0.4724383816719055,
+  "test_accuracy": 0.8223,
+  "correct": 8223,
+  "incorrect": 1777,
+  "selected_by_validation": false,
+  "checkpoint": "dropout03_best.pt"
+}

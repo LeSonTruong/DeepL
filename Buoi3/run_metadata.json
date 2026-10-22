@@ -1,0 +1,17 @@
+{
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "author": "Lê Sơn Trường",
+  "max_epochs": 5,
+  "sources_sha256": {
+    "bai02_class_training_loop.py": "a209bc85350c91063a3bcf0efccd7d58d32ad38a8f81122c7819d6a3668adc53",
+    "bai02_homework_optimizer_compare.py": "b45462c7574fac1fbcabc888c945debf3b70e1cb4a73b1d6886016efb3721cb3",
+    "build_submission.py": "6bae36c8a876313f2bb7cbb158d6380686db4d7fff7fc17282eb2710065f4c93",
+    "common.py": "cc4dea417eb880ba061603154093dd18dea9e0048d3888c97ba66d065679e20d",
+    "data.py": "d330bc21dbb9fccba7fc4999925e7ffebce26c6826e75b9fe24471749ed72635",
+    "verify_results.py": "3a8a9b11ce9abcecd3f5f44c71a075b90e51a8fef4fcfa3307ae944df06c6e57"
+  },
+  "originals_sha256": {
+    "bai02_class_training_loop.py": "08c7fa13d883991bf549871a681d09eeec7d8193964c7a8fdf29cd15355fabaf",
+    "bai02_homework_optimizer_compare.py": "33dd141bc44a60787b4dc9807205fdd2b71c462588f8dc482ccb44b8d0fa35c4"
+  }
+}

@@ -1,0 +1,2432 @@
+[
+  {
+    "config": {
+      "name": "baseline",
+      "channels": 16,
+      "kernel_size": 3,
+      "batchnorm": false,
+      "dropout": 0.0
+    },
+    "parameters": 206922,
+    "block1_parameters": 160,
+    "block2_parameters": 4640,
+    "classifier_parameters": 202122,
+    "traces": [
+      {
+        "batch_size": 1,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              1,
+              32,
+              7,
+              7
+            ],
+            "output_shape": [
+              1,
+              1568
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=1568, out_features=128, bias=True)",
+            "input_shape": [
+              1,
+              1568
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "batch_size": 64,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              64,
+              32,
+              7,
+              7
+            ],
+            "output_shape": [
+              64,
+              1568
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=1568, out_features=128, bias=True)",
+            "input_shape": [
+              64,
+              1568
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "kernel5",
+      "channels": 16,
+      "kernel_size": 5,
+      "batchnorm": false,
+      "dropout": 0.0
+    },
+    "parameters": 215370,
+    "block1_parameters": 416,
+    "block2_parameters": 12832,
+    "classifier_parameters": 202122,
+    "traces": [
+      {
+        "batch_size": 1,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))",
+            "input_shape": [
+              1,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))",
+            "input_shape": [
+              1,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              1,
+              32,
+              7,
+              7
+            ],
+            "output_shape": [
+              1,
+              1568
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=1568, out_features=128, bias=True)",
+            "input_shape": [
+              1,
+              1568
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "batch_size": 64,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))",
+            "input_shape": [
+              64,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))",
+            "input_shape": [
+              64,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              64,
+              32,
+              7,
+              7
+            ],
+            "output_shape": [
+              64,
+              1568
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=1568, out_features=128, bias=True)",
+            "input_shape": [
+              64,
+              1568
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "channels8",
+      "channels": 8,
+      "kernel_size": 3,
+      "batchnorm": false,
+      "dropout": 0.0
+    },
+    "parameters": 103018,
+    "block1_parameters": 80,
+    "block2_parameters": 1168,
+    "classifier_parameters": 101770,
+    "traces": [
+      {
+        "batch_size": 1,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 8, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              8,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              8,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              8,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              8,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              8,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              8,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              8,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(8, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              8,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              16,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              1,
+              16,
+              7,
+              7
+            ],
+            "output_shape": [
+              1,
+              784
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=784, out_features=128, bias=True)",
+            "input_shape": [
+              1,
+              784
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "batch_size": 64,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 8, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              8,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              8,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              8,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              8,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              8,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              8,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              8,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(8, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              8,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              16,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              64,
+              16,
+              7,
+              7
+            ],
+            "output_shape": [
+              64,
+              784
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=784, out_features=128, bias=True)",
+            "input_shape": [
+              64,
+              784
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "channels32",
+      "channels": 32,
+      "kernel_size": 3,
+      "batchnorm": false,
+      "dropout": 0.0
+    },
+    "parameters": 421642,
+    "block1_parameters": 320,
+    "block2_parameters": 18496,
+    "classifier_parameters": 402826,
+    "traces": [
+      {
+        "batch_size": 1,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              32,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              32,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              32,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              32,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              32,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              32,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              64,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              64,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              64,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              64,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              64,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              64,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              64,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              1,
+              64,
+              7,
+              7
+            ],
+            "output_shape": [
+              1,
+              3136
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=3136, out_features=128, bias=True)",
+            "input_shape": [
+              1,
+              3136
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "batch_size": 64,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              32,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              32,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              32,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              32,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              32,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              32,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              64,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              64,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              64,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              64,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              64,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              64,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              64,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              64,
+              64,
+              7,
+              7
+            ],
+            "output_shape": [
+              64,
+              3136
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=3136, out_features=128, bias=True)",
+            "input_shape": [
+              64,
+              3136
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "batchnorm",
+      "channels": 16,
+      "kernel_size": 3,
+      "batchnorm": true,
+      "dropout": 0.0
+    },
+    "parameters": 207018,
+    "block1_parameters": 192,
+    "block2_parameters": 4704,
+    "classifier_parameters": 202122,
+    "traces": [
+      {
+        "batch_size": 1,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              1,
+              32,
+              7,
+              7
+            ],
+            "output_shape": [
+              1,
+              1568
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=1568, out_features=128, bias=True)",
+            "input_shape": [
+              1,
+              1568
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "batch_size": 64,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              64,
+              32,
+              7,
+              7
+            ],
+            "output_shape": [
+              64,
+              1568
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=1568, out_features=128, bias=True)",
+            "input_shape": [
+              64,
+              1568
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.0, inplace=False)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "dropout03",
+      "channels": 16,
+      "kernel_size": 3,
+      "batchnorm": false,
+      "dropout": 0.3
+    },
+    "parameters": 206922,
+    "block1_parameters": 160,
+    "block2_parameters": 4640,
+    "classifier_parameters": 202122,
+    "traces": [
+      {
+        "batch_size": 1,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              1,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              1,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              1,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              1,
+              32,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              1,
+              32,
+              7,
+              7
+            ],
+            "output_shape": [
+              1,
+              1568
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=1568, out_features=128, bias=True)",
+            "input_shape": [
+              1,
+              1568
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.3, inplace=False)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              1,
+              128
+            ],
+            "output_shape": [
+              1,
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "batch_size": 64,
+        "layers": [
+          {
+            "step": "conv1",
+            "layer": "Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              1,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "bn1",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "relu1",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              28,
+              28
+            ]
+          },
+          {
+            "step": "pool1",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              16,
+              28,
+              28
+            ],
+            "output_shape": [
+              64,
+              16,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "conv2",
+            "layer": "Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))",
+            "input_shape": [
+              64,
+              16,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "bn2",
+            "layer": "Identity()",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "relu2",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              14,
+              14
+            ]
+          },
+          {
+            "step": "pool2",
+            "layer": "MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)",
+            "input_shape": [
+              64,
+              32,
+              14,
+              14
+            ],
+            "output_shape": [
+              64,
+              32,
+              7,
+              7
+            ]
+          },
+          {
+            "step": "flatten",
+            "layer": "Flatten(start_dim=1, end_dim=-1)",
+            "input_shape": [
+              64,
+              32,
+              7,
+              7
+            ],
+            "output_shape": [
+              64,
+              1568
+            ]
+          },
+          {
+            "step": "fc1",
+            "layer": "Linear(in_features=1568, out_features=128, bias=True)",
+            "input_shape": [
+              64,
+              1568
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "relu3",
+            "layer": "ReLU()",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "drop",
+            "layer": "Dropout(p=0.3, inplace=False)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              128
+            ]
+          },
+          {
+            "step": "fc2",
+            "layer": "Linear(in_features=128, out_features=10, bias=True)",
+            "input_shape": [
+              64,
+              128
+            ],
+            "output_shape": [
+              64,
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+
+Thuc Hanh 1
+• File gợi ý: bai03_class_cnn_fashionmnist.py
+1. Dùng FashionMNIST (6.000 train, 1.200 validation).
+2. CNN hai block Conv2d → ReLU → MaxPool2d(2).
+3. In shape sau conv1, pool1, conv2, pool2 và trước Linear (kèm batch
+dimension).
+4. So sánh MLP `784→256→10` với CNN bằng số tham số, validation accuracy
+và thời gian trung bình/epoch; giữ cùng seed, data split, optimizer, lr, batch và
+epochs.
+5. In `device`, `train loss`, `validation accuracy` và số giây mỗi epoch; sử dụng
+đúng `model.train()`/`model.eval()`.
+6. Nhận xét 3–5 câu về kết quả thực tế và hình dạng tensor.
+sản phẩm nộp: Mã Python hoàn thiện, nhật ký shape, bảng MLP–CNN, learning
+curve và nhận xét ngắn
+
+Thuc Hanh 2
+File đề bài:bai03_homework_cnn_variants.py 
+Dữ liệu: CIFAR-10 hoặc FashionMNIST nếu máy yếu. 6.000 train + 1.200 validation từ official 
+train; test chính thức dành riêng cho đánh giá cuối.
+Yêu cầu :
+1. Huấn luyện CNN baseline hai block; báo cáo train/validation loss, validation accuracy; lựa
+chọn mô hình theo validation rồi tính test accuracy và confusion matrix.
+2. Thay kernel size* (3→5) hoặc số channel (16→8 hoặc 32) và phân tích kết quả; giữ nguyên
+các điều kiện khác.
+3. Bổ sung BatchNorm hoặc Dropout (ví dụ 0.3), so sánh với baseline.
+4. Trực quan: learning curves, confusion matrix: hàng nhãn thật – cột nhãn dự đoán, 5 ảnh
+đúng + 5 ảnh sai trên tập test, ghi nhãn thật và nhãn dự đoán.
+Sản phẩm nộp: Mã nguồn, bảng cấu hình/kết quả, learning curves, confusion matrix, 5 ảnh
+đúng và 5 ảnh sai, phân tích 5–10 dòng.

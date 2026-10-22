@@ -1,0 +1,44 @@
+{
+  "title": "Thực hành 1 — So sánh learning rate (Adam, 5 epoch)",
+  "author": "Lê Sơn Trường",
+  "device": "cpu",
+  "torch": "2.14.1+cpu",
+  "seed": 42,
+  "torch_threads": 2,
+  "configs": [
+    {
+      "name": "adam_lr_0.01",
+      "optimizer": "adam",
+      "lr": 0.01,
+      "hidden": 256,
+      "momentum": 0.0
+    },
+    {
+      "name": "adam_lr_0.001",
+      "optimizer": "adam",
+      "lr": 0.001,
+      "hidden": 256,
+      "momentum": 0.0
+    },
+    {
+      "name": "adam_lr_0.0001",
+      "optimizer": "adam",
+      "lr": 0.0001,
+      "hidden": 256,
+      "momentum": 0.0
+    }
+  ],
+  "preprocessing": "float32 /255, no other normalization",
+  "validation": "first N samples of official test split; not independent test after comparison",
+  "initial_state_sha256": {
+    "adam_lr_0.01": "e0912979ac72db20e1b5775062db8cfd619e4d15fdcd593472b0abfda9d9322e",
+    "adam_lr_0.001": "e0912979ac72db20e1b5775062db8cfd619e4d15fdcd593472b0abfda9d9322e",
+    "adam_lr_0.0001": "e0912979ac72db20e1b5775062db8cfd619e4d15fdcd593472b0abfda9d9322e"
+  },
+  "first_batch_sha256": {
+    "adam_lr_0.01": "052385423582acf7fb0320f5be5ecf47ff8d04d1919f1c855195d95a60a9acd1",
+    "adam_lr_0.001": "052385423582acf7fb0320f5be5ecf47ff8d04d1919f1c855195d95a60a9acd1",
+    "adam_lr_0.0001": "052385423582acf7fb0320f5be5ecf47ff8d04d1919f1c855195d95a60a9acd1"
+  },
+  "selection": "final epoch, no checkpoint selection"
+}

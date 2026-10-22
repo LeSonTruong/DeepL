@@ -1,0 +1,11 @@
+{
+  "model": "batchnorm",
+  "epoch": 4,
+  "validation_accuracy": 0.8858333333333334,
+  "validation_loss": 0.329667729139328,
+  "rule": "max validation accuracy, tie: min validation loss, exact tie: first",
+  "test_size": 10000,
+  "test_loss": 0.3761565640449524,
+  "test_accuracy": 0.8644000291824341,
+  "confusion_accuracy": 0.8644
+}

@@ -1,0 +1,13 @@
+{
+  "model": "baseline",
+  "epoch": 5,
+  "validation_accuracy": 0.8616666666666667,
+  "validation_loss": 0.43193540096282956,
+  "test_size": 10000,
+  "test_loss": 0.4662133574962616,
+  "test_accuracy": 0.8311,
+  "correct": 8311,
+  "incorrect": 1689,
+  "selected_by_validation": false,
+  "checkpoint": "baseline_best.pt"
+}

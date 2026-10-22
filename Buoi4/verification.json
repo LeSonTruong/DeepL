@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checkpoints_checked": 8,
+  "variant_architectures_checked": 6,
+  "training_epochs_checked": 40,
+  "test_predictions_checked": 10000,
+  "all_configuration_confusion_matrices_checked": 6,
+  "all_configuration_test_predictions_checked": 60000,
+  "split": "6000/1200 disjoint, same official train split in both exercises",
+  "baseline_reproduces_exercise_1": true,
+  "selected_model": "batchnorm",
+  "selected_epoch": 4,
+  "confusion_matrix_and_10_examples": "matched"
+}

@@ -1,0 +1,13 @@
+{
+  "model": "kernel5",
+  "epoch": 5,
+  "validation_accuracy": 0.8575,
+  "validation_loss": 0.4003232769171397,
+  "test_size": 10000,
+  "test_loss": 0.4308914787530899,
+  "test_accuracy": 0.8459,
+  "correct": 8459,
+  "incorrect": 1541,
+  "selected_by_validation": false,
+  "checkpoint": "kernel5_best.pt"
+}
